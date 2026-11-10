@@ -1,9 +1,27 @@
 package main
 
 import (
+	"net/http"
+	"net/http/httptest"
 	"path/filepath"
 	"testing"
 )
+
+func TestProductionOriginBoundary(t *testing.T) {
+	handler := sameOrigin(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) { w.WriteHeader(http.StatusNoContent) }))
+	for _, tc := range []struct {
+		origin string
+		status int
+	}{{"", 204}, {"http://localcal.test", 204}, {"https://unrelated.test", 403}, {"null", 403}} {
+		req := httptest.NewRequest("POST", "http://localcal.test/api/sync/default", nil)
+		req.Header.Set("Origin", tc.origin)
+		response := httptest.NewRecorder()
+		handler.ServeHTTP(response, req)
+		if response.Code != tc.status {
+			t.Fatalf("origin %q: got %d", tc.origin, response.Code)
+		}
+	}
+}
 
 func TestOfflineDiaryItemsPersistAcrossRestart(t *testing.T) {
 	path := filepath.Join(t.TempDir(), "tracker.db")

@@ -113,6 +113,34 @@ async function mcpCall(base, name, args) {
   return json.result.structuredContent;
 }
 
+test('offline UI additions survive MCP writes, edits and deletes on the same day', async (t) => {
+  const base = await withServer(t);
+  const date = '2026-11-10';
+  const food = await mcpCall(base, 'add_food', {name:'Svježi sir',kcal:100,p:10,g:4,c:6});
+  const logged = await mcpCall(base, 'add_diary_item', {date,food:food.food.id,grams:100});
+  const offline = {collection:'diary',id:date,updated:100,data:{type:'training',items:[
+    {id:'offline-item',name:'Manual meal',grams:1,unit:'serving',kcal:250,p:null,g:null,c:null}
+  ],itemUpdated:{'offline-item':100}}};
+  const push = async record => {
+    const response = await fetch(base+'/api/sync/default',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({records:[record]})});
+    assert.equal(response.status,204);
+  };
+  await push(offline);
+  let saved = await mcpCall(base,'list_diary',{date});
+  assert.equal(saved.items.length,2);
+  assert.equal(saved.totals.kcal,350);
+  assert.equal(saved.totals.p,null);
+  await mcpCall(base,'add_food',{name:'Svježi sir',kcal:200,p:20,g:8,c:12});
+  await mcpCall(base,'update_diary_item',{date,item:logged.item.id,grams:200});
+  saved = await mcpCall(base,'list_diary',{date});
+  assert.equal(saved.items.find(i=>i.id===logged.item.id).kcal,200,'must use saved 100 kcal/100g snapshot');
+  await mcpCall(base,'remove_diary_item',{date,item:'offline-item'});
+  await push(offline);
+  const delta = await (await fetch(base+'/api/sync/default?since=0')).json();
+  const browser = core.syncDeltaState(delta);
+  assert.equal(browser.diary[date].items.length,1,'stale offline replay cannot resurrect deletion');
+});
+
 test('un alimento e un esercizio aggiunti via MCP arrivano al dispositivo', async (t) => {
   const base = await withServer(t);
 

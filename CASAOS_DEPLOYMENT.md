@@ -45,6 +45,12 @@ PWA installation/service workers require HTTPS or localhost; ordinary LAN HTTP
 can load the app but does not provide a trusted secure context on phones.
 Android/iPhone installation and physical phone tests remain unverified.
 
+The production server rejects browser requests with unrelated or opaque
+(`null`) Origins. Serve the PWA from the same origin as its API; the inherited
+standalone `file://` cross-server sync mode is intentionally unavailable.
+Preserve the original Host through a reverse proxy. Origin checks do not
+authenticate non-browser clients and are not a replacement for private access.
+
 ## Backup, restore, update and rollback
 
 For the simplest consistent backup, stop the application before copying:
