@@ -40,16 +40,18 @@ async function waitHealth(base) {
 
 async function withServer(t) {
   const tmp = mkdtempSync(join(tmpdir(), 'tracker-mcp-e2e-'));
-  const bin = join(tmp, 'tracker');
+  const bin = join(tmp, process.platform === 'win32' ? 'tracker.exe' : 'tracker');
   execFileSync('go', ['build', '-o', bin, './cmd/server'], {cwd: repo, stdio: 'inherit'});
   const port = await freePort();
   const child = spawn(bin, [], {
     env: {...process.env, PORT: String(port), DATA_DIR: join(tmp, 'data'), STATIC_DIR: repo},
     stdio: 'ignore',
   });
-  t.after(() => {
+  t.after(async () => {
+    const exited = new Promise(resolve => child.once('exit', resolve));
     child.kill('SIGKILL');
-    rmSync(tmp, {recursive: true, force: true});
+    await exited;
+    rmSync(tmp, {recursive: true, force: true, maxRetries: 5, retryDelay: 100});
   });
   const base = 'http://127.0.0.1:' + port;
   await waitHealth(base);

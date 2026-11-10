@@ -88,7 +88,7 @@ func main() {
 
 	srv := &http.Server{
 		Addr:              ":" + port,
-		Handler:           withCORS(mux),
+		Handler:           sameOrigin(withCORS(mux)),
 		ReadHeaderTimeout: 5 * time.Second,
 	}
 	if err := srv.ListenAndServe(); err != nil && !errors.Is(err, http.ErrServerClosed) {

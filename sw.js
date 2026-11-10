@@ -5,7 +5,7 @@
 // offline. Static assets are cache-first. The sync API and MCP are never cached
 // and never served from cache — the app's own LocalStorage + outbox handle
 // offline edits and reconcile on the next sync.
-const CACHE = 'tracker-v1';
+const CACHE = 'localcal-v2';
 const SHELL = [
   '/',
   '/index.html',

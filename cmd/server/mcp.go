@@ -624,8 +624,10 @@ func (s *server) toolAddFood(args map[string]any) (any, error) {
 		idx, id := -1, ""
 		for i, f := range foods {
 			if strings.EqualFold(getString(f, "name"), name) {
+				if idx >= 0 {
+					return errors.New("ambiguous branded food name; edit in the Foods UI")
+				}
 				idx, id = i, getString(f, "id")
-				break
 			}
 		}
 		created = idx < 0
@@ -645,6 +647,14 @@ func (s *server) toolAddFood(args map[string]any) (any, error) {
 			"piece": optionalNumber(args, "piece"),
 		}
 		if idx >= 0 {
+			for _, field := range []string{"brand", "aliases", "source", "basis"} {
+				if value, ok := foods[idx][field]; ok {
+					food[field] = value
+				}
+			}
+			if getString(food, "basis") != "" && getString(food, "basis") != "100g" {
+				return errors.New("use the Foods UI to update non-100g nutrition")
+			}
 			foods[idx] = food
 		} else {
 			foods = append(foods, food)
@@ -1107,7 +1117,13 @@ func (s *server) toolAddDiaryItem(args map[string]any) (any, error) {
 			return err
 		}
 		day := ensureDiaryDay(diary, state, date)
-		items := append(diaryItems(day), makeDiaryItem(food, grams))
+		basis := getString(food, "basis")
+		if basis != "" && basis != "100g" {
+			return errors.New("this MCP tool accepts grams for per-100g foods only; log other bases in the UI")
+		}
+		item := makeDiaryItem(food, grams)
+		item["position"] = len(diaryItems(day))
+		items := append(diaryItems(day), item)
 		day["items"] = items
 		if err := setRaw(state, "diary", diary); err != nil {
 			return err
@@ -1351,6 +1367,9 @@ func (s *server) persistDiff(key string, before, after []record) error {
 		if old, ok := prev[k]; ok && recordsEqual(old, rec) {
 			continue
 		}
+		if rec.Collection == "diary" && !rec.Deleted {
+			stampDiaryRecord(prev[k], &rec)
+		}
 		changed = append(changed, rec)
 	}
 	now := time.Now().UnixMilli()
@@ -1584,52 +1603,83 @@ func findDiaryItem(items []map[string]any, ref string) int {
 
 // makeDiaryItem denormalises a food into a diary item, exactly like the app
 // (protein/fat/carbs to one decimal, calories rounded to an integer).
-func makeDiaryItem(food map[string]any, grams float64) map[string]any {
-	return map[string]any{
-		"id":     newRecordID(),
-		"foodId": getString(food, "id"),
-		"name":   getString(food, "name"),
-		"grams":  grams,
-		"p":      round1(getFloat(food, "p") * grams / 100),
-		"g":      round1(getFloat(food, "g") * grams / 100),
-		"c":      round1(getFloat(food, "c") * grams / 100),
-		"kcal":   math.Round(getFloat(food, "kcal") * grams / 100),
+func makeDiaryItem(food map[string]any, amount float64) map[string]any {
+	divisor, unit := 100.0, "g"
+	switch getString(food, "basis") {
+	case "100ml":
+		unit = "ml"
+	case "serving":
+		divisor = 1
+		unit = "serving"
 	}
+	item := map[string]any{"id": newRecordID(), "foodId": getString(food, "id"), "name": getString(food, "name"), "grams": amount, "unit": unit}
+	nutrition := map[string]any{}
+	for _, k := range []string{"p", "g", "c", "kcal"} {
+		if food[k] == nil {
+			nutrition[k] = nil
+			item[k] = nil
+			continue
+		}
+		value := getFloat(food, k) / divisor
+		nutrition[k] = value
+		if k == "kcal" {
+			item[k] = math.Round(value * amount)
+		} else {
+			item[k] = round1(value * amount)
+		}
+	}
+	item["nutrition"] = nutrition
+	return item
 }
 
-// recalcDiaryItem rewrites an item's macros for a new weight. It prefers the
-// current food's per-100 g values and, when the food is gone, back-computes them
-// from the item's own numbers (as the app's recalcItem does).
-func recalcDiaryItem(item, food map[string]any, grams float64) {
-	per100 := func(k string) float64 {
-		if food != nil {
-			return getFloat(food, k)
+// Quantity edits always use saved nutrition, never the mutable food master.
+func recalcDiaryItem(item, food map[string]any, amount float64) {
+	nutrition, _ := item["nutrition"].(map[string]any)
+	oldAmount := getFloat(item, "grams")
+	for _, k := range []string{"p", "g", "c", "kcal"} {
+		var value float64
+		if nutrition != nil {
+			if nutrition[k] == nil {
+				item[k] = nil
+				continue
+			}
+			value = getFloat(nutrition, k)
+		} else {
+			if item[k] == nil || oldAmount <= 0 {
+				item[k] = nil
+				continue
+			}
+			value = getFloat(item, k) / oldAmount
 		}
-		if old := getFloat(item, "grams"); old > 0 {
-			return getFloat(item, k) / old * 100
+		if k == "kcal" {
+			item[k] = math.Round(value * amount)
+		} else {
+			item[k] = round1(value * amount)
 		}
-		return 0
 	}
-	item["grams"] = grams
-	item["p"] = round1(per100("p") * grams / 100)
-	item["g"] = round1(per100("g") * grams / 100)
-	item["c"] = round1(per100("c") * grams / 100)
-	item["kcal"] = math.Round(per100("kcal") * grams / 100)
-	if food != nil {
-		item["foodId"] = getString(food, "id")
-		item["name"] = getString(food, "name")
-	}
+	item["grams"] = amount
 }
 
 func diaryTotals(items []map[string]any) map[string]any {
-	var kcal, p, g, c float64
-	for _, it := range items {
-		kcal += getFloat(it, "kcal")
-		p += getFloat(it, "p")
-		g += getFloat(it, "g")
-		c += getFloat(it, "c")
+	result := map[string]any{}
+	for _, k := range []string{"p", "g", "c", "kcal"} {
+		total := 0.0
+		known := true
+		for _, item := range items {
+			if item[k] == nil {
+				known = false
+			}
+			total += getFloat(item, k)
+		}
+		if !known {
+			result[k] = nil
+		} else if k == "kcal" {
+			result[k] = math.Round(total)
+		} else {
+			result[k] = round1(total)
+		}
 	}
-	return map[string]any{"kcal": math.Round(kcal), "p": round1(p), "g": round1(g), "c": round1(c)}
+	return result
 }
 
 func round1(v float64) float64 { return math.Round(v*10) / 10 }

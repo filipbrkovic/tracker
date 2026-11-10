@@ -1,3 +1,39 @@
+# LocalCal
+
+A private calorie diary fork of [Progress Tracker](https://github.com/heizelnut/tracker),
+retaining its MIT license, Go server, SQLite database, PWA and HTTP MCP endpoint.
+Pinned upstream: b00399b72725278c8567e521f8d2764a7737d6b7.
+
+Start with [CasaOS deployment](CASAOS_DEPLOYMENT.md) and
+[implementation status](CHANGELOG_LOCALCAL.md). Import fixtures are under
+[templates](templates). The original README below documents inherited behavior;
+LocalCal changes described here take precedence.
+
+- Today / Add / Foods / Settings, custom foods and quick calorie logging.
+- Regional Unicode search and aliases, with brands kept distinct.
+- CSV/JSON preview and explicit apply; optional source-column mapping, decimal
+  commas, row errors and source attribution. Re-import matches name + brand.
+- Nutrition per 100 g, 100 ml or serving; omitted macros remain unknown.
+- Diary snapshots and per-item merge/tombstones inside compatible day records.
+- Local browser cache + SQLite + SSE. Full reconciliation currently favors
+  correctness over incremental transfer size. Upgrade all editing clients.
+
+Run locally with Go 1.26.3 or newer:
+
+```sh
+go run ./cmd/server
+go test ./...
+node --test tests/*.test.mjs
+```
+
+Open http://localhost:8080. For production use the provided Compose configuration
+(loopback port 3187 by default). No registration or AI configuration is needed.
+Do not expose unauthenticated API/MCP endpoints publicly. Docker/CasaOS and
+physical-phone checks remain unverified here. Photos, vision, MCP tool extensions
+and full Croatian/English localization remain later milestones.
+
+---
+
 # Progress Tracker
 
 A self-contained web app for tracking body recomposition: weight, calories and

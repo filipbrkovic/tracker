@@ -100,6 +100,14 @@ func (s *store) upsert(key string, recs []record) ([]record, error) {
 		if rec.Collection == "" || rec.ID == "" {
 			continue
 		}
+		if rec.Collection == "diary" && !rec.Deleted {
+			previous, err := scanRecord(tx.QueryRow("SELECT "+recordColumns+" FROM records WHERE key=? AND collection=? AND rec_id=?", key, rec.Collection, rec.ID))
+			if err == nil && !previous.Deleted {
+				rec = mergeDiaryRecords(previous, rec)
+			} else if err != nil && !errors.Is(err, sql.ErrNoRows) {
+				return nil, err
+			}
+		}
 		var curUpdated int64
 		var curDeleted int
 		err := tx.QueryRow(
