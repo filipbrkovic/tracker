@@ -9,6 +9,8 @@ services:
       DATA_DIR: /data
       STATIC_DIR: /app
       TZ: Europe/Zagreb
+      FOOD_SEARCH_WORKER_URL: ${FOOD_SEARCH_WORKER_URL:-}
+      FOOD_SEARCH_WORKER_TOKEN: ${FOOD_SEARCH_WORKER_TOKEN:-}
     volumes:
       - ${LOCALCAL_DATA:-/DATA/AppData/localcal}:/data
     ports:

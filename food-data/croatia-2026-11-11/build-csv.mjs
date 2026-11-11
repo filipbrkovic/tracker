@@ -1,0 +1,25 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import {Workbook} from '@oai/artifact-tool';
+const root=new URL('./',import.meta.url);
+const records=JSON.parse(await fs.readFile(new URL('sources/curated-records.json',root),'utf8'));
+const headers=['name','brand','aliases','basis','kcal','p','g','c','piece','source','cat'];
+const matrix=[headers,...records.map(r=>headers.map(k=>k==='aliases'?r.aliases.join('|'):r[k]??null))];
+const wb=Workbook.create(), sheet=wb.worksheets.add('Foods');
+const range=sheet.getRange(`A1:K${matrix.length}`);range.values=matrix;
+sheet.getRange('A1:A9').format.columnWidth=55;
+sheet.getRange('B1:C9').format.columnWidth=28;
+sheet.getRange('D1:H9').format.columnWidth=12;
+sheet.getRange('A1:H1').format.font.bold=true;
+wb.recalculate();
+const authored=range.values;
+assert.equal(authored.length,records.length+1);
+for(let i=0;i<authored.length;i++)for(let j=0;j<headers.length;j++)assert.equal(authored[i][j]??null,matrix[i][j]??null,`Cell ${i+1}:${j+1}`);
+console.log((await wb.inspect({kind:'table',range:'Foods!A1:H5',maxChars:2000,tableMaxRows:5,tableMaxCols:8})).ndjson);
+// Serialize the authored cell matrix using LocalCal's documented semicolon CSV schema.
+const quote=v=>'"'+String(v??'').replaceAll('"','""')+'"';
+const csv='\uFEFF'+authored.map(row=>row.map(quote).join(';')).join('\r\n')+'\r\n';
+await fs.writeFile(new URL('croatia-foods-1000.csv',root),csv,'utf8');
+console.log(`Saved ${records.length} rows, ${Buffer.byteLength(csv)} UTF-8 bytes`);
+const preview=await wb.render({sheetName:'Foods',range:'A1:H9',format:'png',scale:1});
+await fs.writeFile(new URL('sources/preview.png',root),new Uint8Array(await preview.arrayBuffer()));

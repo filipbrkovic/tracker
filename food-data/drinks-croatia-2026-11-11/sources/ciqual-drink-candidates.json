@@ -1,0 +1,5816 @@
+[
+  {
+    "code": "18009",
+    "name": "Mineral sparkling water, bottled, lightly mineralized (average)",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,0036",
+    "p": "0",
+    "g": "0",
+    "c": "0,00091",
+    "alcohol": "0"
+  },
+  {
+    "code": "18044",
+    "name": "Water, mineral (average)",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,024",
+    "p": "0",
+    "g": "0",
+    "c": "0,0061",
+    "alcohol": "0"
+  },
+  {
+    "code": "18045",
+    "name": "Mineral still water, bottled (average)",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,025",
+    "p": "0",
+    "g": "0",
+    "c": "0,0062",
+    "alcohol": "0"
+  },
+  {
+    "code": "18046",
+    "name": "Mineral sparkling water, bottled (average)",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,018",
+    "p": "0",
+    "g": "0",
+    "c": "0,0046",
+    "alcohol": "0"
+  },
+  {
+    "code": "18066",
+    "name": "Water, municipal",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "18430",
+    "name": "Spring water, bottled",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76000",
+    "name": "Mineral still water (Abatilles), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76001",
+    "name": "Mineral still water (Aix-les-Bains), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76002",
+    "name": "Mineral sparkling water (Aziac), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76004",
+    "name": "Mineral still water (Amanda), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76006",
+    "name": "Mineral sparkling water (Arcens), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76007",
+    "name": "Mineral sparkling water (Ardesy), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76010",
+    "name": "Mineral water (Celtic), bottled, very lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,004",
+    "p": "0",
+    "g": "0",
+    "c": "0,001",
+    "alcohol": "0"
+  },
+  {
+    "code": "76011",
+    "name": "Mineral still water (Chambon), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,012",
+    "p": "0",
+    "g": "0",
+    "c": "0,0029",
+    "alcohol": "0"
+  },
+  {
+    "code": "76012",
+    "name": "Mineral still water (Chantemerle), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76013",
+    "name": "Mineral sparkling water (Chateauneuf), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76014",
+    "name": "Mineral sparkling water (Chateldon), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76015",
+    "name": "Mineral still water (Clos de l'Abbaye), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,064",
+    "p": "0",
+    "g": "0",
+    "c": "0,016",
+    "alcohol": "0"
+  },
+  {
+    "code": "76016",
+    "name": "Mineral still water (Contrex), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,031",
+    "p": "0",
+    "g": "0",
+    "c": "0,0078",
+    "alcohol": "0"
+  },
+  {
+    "code": "76017",
+    "name": "Mineral still water (Dax), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,28",
+    "p": "0",
+    "g": "0",
+    "c": "0,069",
+    "alcohol": "0"
+  },
+  {
+    "code": "76018",
+    "name": "Mineral sparkling water (Didier), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76019",
+    "name": "Mineral still water (Didier), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76020",
+    "name": "Mineral still water (Evian), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76022",
+    "name": "Mineral still water (Hépar), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76023",
+    "name": "Mineral sparkling water (Hydroxydase), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "1,04",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76024",
+    "name": "Mineral sparkling water (Vernière), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76025",
+    "name": "Mineral still water (Luchon), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76027",
+    "name": "Mineral water (Mont-Roucous, bottled, very lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76029",
+    "name": "Mineral water (Orée du bois), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76030",
+    "name": "Mineral sparkling water (Orezza), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76031",
+    "name": "Mineral sparkling water (Parot), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76032",
+    "name": "Mineral water (Plancoet), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76033",
+    "name": "Mineral still water (Propiac), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,92",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76034",
+    "name": "Mineral sparkling water (Puits St Georges), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76035",
+    "name": "Mineral sparkling water (Quézac), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76036",
+    "name": "Mineral sparkling water (Reine des basaltes), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76037",
+    "name": "Mineral sparkling water (Rozana), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76038",
+    "name": "Mineral still water (Sail-les-Bains), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76039",
+    "name": "Mineral sparkling water (Salvetat), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,12",
+    "p": "0",
+    "g": "0",
+    "c": "0,03",
+    "alcohol": "0"
+  },
+  {
+    "code": "76043",
+    "name": "Mineral water (St-Amand), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76044",
+    "name": "Mineral still water (St-Antonin), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,088",
+    "p": "0",
+    "g": "0",
+    "c": "0,022",
+    "alcohol": "0"
+  },
+  {
+    "code": "76046",
+    "name": "Mineral sparkling water (St-Diéry), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,02",
+    "p": "0",
+    "g": "0",
+    "c": "0,005",
+    "alcohol": "0"
+  },
+  {
+    "code": "76047",
+    "name": "Mineral sparkling water (Ste-Marguerite), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76049",
+    "name": "Mineral sparkling water (St-Yorre), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,038",
+    "p": "0",
+    "g": "0",
+    "c": "0,0094",
+    "alcohol": "0"
+  },
+  {
+    "code": "76050",
+    "name": "Mineral still water (Thonon), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,029",
+    "p": "0",
+    "g": "0",
+    "c": "0,0072",
+    "alcohol": "0"
+  },
+  {
+    "code": "76052",
+    "name": "Mineral sparkling water (Vals-Vivaraise), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76053",
+    "name": "Mineral sparkling water (Ventadour), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,12",
+    "p": "0",
+    "g": "0",
+    "c": "0,03",
+    "alcohol": "0"
+  },
+  {
+    "code": "76054",
+    "name": "Mineral sparkling water (Vernet), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76055",
+    "name": "Mineral sparkling water (Vichy Célestins), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,05",
+    "p": "0",
+    "g": "0",
+    "c": "0,013",
+    "alcohol": "0"
+  },
+  {
+    "code": "76056",
+    "name": "Mineral still water (Vittel), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,082",
+    "p": "0",
+    "g": "0",
+    "c": "0,02",
+    "alcohol": "0"
+  },
+  {
+    "code": "76057",
+    "name": "Mineral still water (Volvic), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,0093",
+    "p": "0",
+    "g": "0",
+    "c": "0,0023",
+    "alcohol": "0"
+  },
+  {
+    "code": "76058",
+    "name": "Mineral sparkling water (Volvic active), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76059",
+    "name": "Mineral water (Wattwiller), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76060",
+    "name": "Mineral sparkling water (Perrier), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "traces",
+    "p": "0",
+    "g": "0",
+    "c": "traces",
+    "alcohol": "0"
+  },
+  {
+    "code": "76061",
+    "name": "Mineral sparkling water (Badoit), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76062",
+    "name": "Mineral still water (Avra), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76063",
+    "name": "Mineral still water (Beckerich), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76065",
+    "name": "Mineral still water (Chaudfontaine), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76066",
+    "name": "Mineral still water (Christinen Brunnen), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76067",
+    "name": "Mineral still water (Courmayer), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76069",
+    "name": "Mineral still water (Levissima), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76070",
+    "name": "Mineral still water (Luso), bottled, very lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76071",
+    "name": "Mineral still water (Néro), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76072",
+    "name": "Mineral still water (Penacova), bottled, very lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76074",
+    "name": "Mineral water (San Bernardo), bottled, very lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76075",
+    "name": "Mineral sparkling water (San Pellegrino), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76076",
+    "name": "Mineral water (Spa-Reine), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76078",
+    "name": "Mineral still water (Valvert), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76079",
+    "name": "Mineral still water (Appollinaris), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "traces",
+    "p": "0",
+    "g": "0",
+    "c": "traces",
+    "alcohol": "0"
+  },
+  {
+    "code": "76081",
+    "name": "Mineral still water (Biovive), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,044",
+    "p": "0",
+    "g": "0",
+    "c": "0,011",
+    "alcohol": "0"
+  },
+  {
+    "code": "76082",
+    "name": "Mineral still water (La Cairolle), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,43",
+    "p": "0",
+    "g": "0",
+    "c": "0,11",
+    "alcohol": "0"
+  },
+  {
+    "code": "76083",
+    "name": "Mineral sparkling water (Cilaos), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76085",
+    "name": "Mineral still water (La Française), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,49",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76086",
+    "name": "Mineral still water (Montcalm), bottled, very lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,01",
+    "p": "0",
+    "g": "0",
+    "c": "0,0025",
+    "alcohol": "0"
+  },
+  {
+    "code": "76087",
+    "name": "Mineral still water (Montclar), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,036",
+    "p": "0",
+    "g": "0",
+    "c": "0,009",
+    "alcohol": "0"
+  },
+  {
+    "code": "76088",
+    "name": "Mineral sparkling water (Nessel), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,33",
+    "p": "0",
+    "g": "0",
+    "c": "0,082",
+    "alcohol": "0"
+  },
+  {
+    "code": "76089",
+    "name": "Mineral sparkling water (Ogeu), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,05",
+    "p": "0",
+    "g": "0",
+    "c": "0,012",
+    "alcohol": "0"
+  },
+  {
+    "code": "76090",
+    "name": "Mineral still water (Ogeu), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,073",
+    "p": "0",
+    "g": "0",
+    "c": "0,018",
+    "alcohol": "0"
+  },
+  {
+    "code": "76091",
+    "name": "Mineral still water (Prince Noir), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76092",
+    "name": "Mineral sparkling water (St-Alban), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76093",
+    "name": "Mineral sparkling water (St-Géron), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,28",
+    "p": "0",
+    "g": "0",
+    "c": "0,071",
+    "alcohol": "0"
+  },
+  {
+    "code": "76094",
+    "name": "Mineral sparkling water (St-Michel-de-Mourcairol), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,33",
+    "p": "0",
+    "g": "0",
+    "c": "0,082",
+    "alcohol": "0"
+  },
+  {
+    "code": "76095",
+    "name": "Mineral still water (Treignac), bottled, very lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,0051",
+    "p": "0",
+    "g": "0",
+    "c": "0,0013",
+    "alcohol": "0"
+  },
+  {
+    "code": "76096",
+    "name": "Mineral sparkling water (Vals), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,08",
+    "p": "0",
+    "g": "0",
+    "c": "0,02",
+    "alcohol": "0"
+  },
+  {
+    "code": "76097",
+    "name": "Mineral still water (Vauban), bottled, averagely mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0,35",
+    "p": "0",
+    "g": "0",
+    "c": "0,088",
+    "alcohol": "0"
+  },
+  {
+    "code": "76101",
+    "name": "Mineral still water (Montblanc), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76102",
+    "name": "Mineral still water (Eden La Goa), bottled, lightly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "76103",
+    "name": "Mineral water (Velleminfroy), bottled, strongly mineralized",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": "0",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "2000",
+    "name": "Pineapple juice, from concentrate",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "52,3",
+    "p": "0,41",
+    "g": "0,096",
+    "c": "11,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "2002",
+    "name": "Multifruit juice, pure juice, multivitamin",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "48,4",
+    "p": "0,48",
+    "g": "0,1",
+    "c": "11,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "2004",
+    "name": "Fruit juice (average)",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "46,8",
+    "p": "0,53",
+    "g": "0,13",
+    "c": "10,2",
+    "alcohol": "0"
+  },
+  {
+    "code": "2006",
+    "name": "Carrot juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "29,4",
+    "p": "0,4",
+    "g": "0,1",
+    "c": "6,55",
+    "alcohol": "0"
+  },
+  {
+    "code": "2007",
+    "name": "Lemon juice, homemade",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "28,6",
+    "p": "0,35",
+    "g": "0,24",
+    "c": "2,52",
+    "alcohol": "0"
+  },
+  {
+    "code": "2011",
+    "name": "Multifruit juice, orange base, multivitamin",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "45,5",
+    "p": "0,25",
+    "g": "< 0,8",
+    "c": "11,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "2012",
+    "name": "Orange juice, from concentrate",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "45,6",
+    "p": "0,63",
+    "g": "0,13",
+    "c": "9,59",
+    "alcohol": "0"
+  },
+  {
+    "code": "2013",
+    "name": "Orange juice, fresh",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "44,8",
+    "p": "0,7",
+    "g": "0,2",
+    "c": "9,19",
+    "alcohol": "0"
+  },
+  {
+    "code": "2014",
+    "name": "Apple juice, from concentrate",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "48,5",
+    "p": "0,24",
+    "g": "0,098",
+    "c": "11,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "2015",
+    "name": "Grapefruit juice, from concentrate",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "40,9",
+    "p": "0,52",
+    "g": "0,1",
+    "c": "8,41",
+    "alcohol": "0"
+  },
+  {
+    "code": "2016",
+    "name": "Grape juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "69,2",
+    "p": "0,25",
+    "g": "0,057",
+    "c": "16,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "2017",
+    "name": "Pomegranate juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "54",
+    "p": "0,15",
+    "g": "0,29",
+    "c": "12,7",
+    "alcohol": "0"
+  },
+  {
+    "code": "2018",
+    "name": "Prune juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "77,4",
+    "p": "0,37",
+    "g": "0,039",
+    "c": "18,7",
+    "alcohol": "0"
+  },
+  {
+    "code": "2019",
+    "name": "Grape juice, from concentrate",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "67,1",
+    "p": "0,31",
+    "g": "0,11",
+    "c": "16",
+    "alcohol": "0"
+  },
+  {
+    "code": "2023",
+    "name": "Mango juice, fresh",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "38,8",
+    "p": "0,19",
+    "g": "0",
+    "c": "9,5",
+    "alcohol": "0"
+  },
+  {
+    "code": "2024",
+    "name": "Passion fruit juice, fresh",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "61,7",
+    "p": "0,67",
+    "g": "0,18",
+    "c": "14,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "2025",
+    "name": "Grapefruit juice, fresh",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "43,7",
+    "p": "0,5",
+    "g": "0,1",
+    "c": "9,1",
+    "alcohol": "0"
+  },
+  {
+    "code": "2026",
+    "name": "Tomato juice, pure juice, 3 g salt/L",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "23,2",
+    "p": "0,88",
+    "g": "0,17",
+    "c": "4,13",
+    "alcohol": "0"
+  },
+  {
+    "code": "2027",
+    "name": "Grapefruit juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "42,5",
+    "p": "0,49",
+    "g": "0,083",
+    "c": "8,89",
+    "alcohol": "0"
+  },
+  {
+    "code": "2028",
+    "name": "Lemon juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "29,4",
+    "p": "0,4",
+    "g": "0,29",
+    "c": "6,1",
+    "alcohol": "0"
+  },
+  {
+    "code": "2030",
+    "name": "Lime juice, fresh",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "9,87",
+    "p": "0,42",
+    "g": "0,07",
+    "c": "1,69",
+    "alcohol": "0"
+  },
+  {
+    "code": "2031",
+    "name": "Lime juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "25,7",
+    "p": "0,25",
+    "g": "0,23",
+    "c": "1,69",
+    "alcohol": "0"
+  },
+  {
+    "code": "2032",
+    "name": "Tomato juice, pure juice, 6 g salt/L",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "20,1",
+    "p": "0,88",
+    "g": "0,11",
+    "c": "3,32",
+    "alcohol": "0"
+  },
+  {
+    "code": "2033",
+    "name": "Multifruit juice, juice and fruit puree",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "49,1",
+    "p": "0,46",
+    "g": "0,11",
+    "c": "11,5",
+    "alcohol": "0"
+  },
+  {
+    "code": "2034",
+    "name": "Mandarin or clementine juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "46,7",
+    "p": "0,66",
+    "g": "0,14",
+    "c": "10,4",
+    "alcohol": "0"
+  },
+  {
+    "code": "2035",
+    "name": "Multifruit juice, pure juice, standard",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "46,5",
+    "p": "0,25",
+    "g": "< 0,3",
+    "c": "11,2",
+    "alcohol": "0"
+  },
+  {
+    "code": "2036",
+    "name": "Multifruit juice, grape base, standard",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "54,6",
+    "p": "0,5",
+    "g": "0",
+    "c": "13",
+    "alcohol": "0"
+  },
+  {
+    "code": "2038",
+    "name": "Multifruit juice, orange base, standard",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "46,8",
+    "p": "0,7",
+    "g": "0,16",
+    "c": "10,4",
+    "alcohol": "0"
+  },
+  {
+    "code": "2039",
+    "name": "Pomegranate juice, fresh",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "47,2",
+    "p": "0,2",
+    "g": "0",
+    "c": "11,6",
+    "alcohol": "0"
+  },
+  {
+    "code": "2040",
+    "name": "Acerola juice, fresh",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "22,9",
+    "p": "0,4",
+    "g": "0,3",
+    "c": "4,5",
+    "alcohol": "0"
+  },
+  {
+    "code": "2048",
+    "name": "Multifruit juice, apple base, standard",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "49,9",
+    "p": "0,33",
+    "g": "< 0,1",
+    "c": "12,2",
+    "alcohol": "0"
+  },
+  {
+    "code": "2050",
+    "name": "Multifruit juice, apple base, multivitamin",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "41,9",
+    "p": "0,33",
+    "g": "< 0,1",
+    "c": "10,1",
+    "alcohol": "0"
+  },
+  {
+    "code": "2052",
+    "name": "Fruit and vegetable juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "42,8",
+    "p": "0,85",
+    "g": "traces",
+    "c": "9,5",
+    "alcohol": "0"
+  },
+  {
+    "code": "2053",
+    "name": "Tomato juice, pure juice (average)",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "21,7",
+    "p": "0,88",
+    "g": "0,14",
+    "c": "3,73",
+    "alcohol": "0"
+  },
+  {
+    "code": "2069",
+    "name": "Multifruit juice, from concentrate, standard",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "49,6",
+    "p": "0,52",
+    "g": "0,15",
+    "c": "11,2",
+    "alcohol": "0"
+  },
+  {
+    "code": "2070",
+    "name": "Orange juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "45,4",
+    "p": "0,61",
+    "g": "0,11",
+    "c": "9,61",
+    "alcohol": "0"
+  },
+  {
+    "code": "2071",
+    "name": "Multifruit juice, from concentrate, multivitamin",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "45,5",
+    "p": "0,29",
+    "g": "0,091",
+    "c": "10,8",
+    "alcohol": "0"
+  },
+  {
+    "code": "2072",
+    "name": "Fruit juice, pure juice (average)",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "46,6",
+    "p": "0,51",
+    "g": "0,11",
+    "c": "10,2",
+    "alcohol": "0"
+  },
+  {
+    "code": "2073",
+    "name": "Pineapple juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "52,9",
+    "p": "0,41",
+    "g": "0,074",
+    "c": "12,1",
+    "alcohol": "0"
+  },
+  {
+    "code": "2074",
+    "name": "Apple juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "48,9",
+    "p": "0,17",
+    "g": "0,14",
+    "c": "11,4",
+    "alcohol": "0"
+  },
+  {
+    "code": "2075",
+    "name": "Vegetable juice, pure juice (average)",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "24,3",
+    "p": "0,72",
+    "g": "0,13",
+    "c": "4,69",
+    "alcohol": "0"
+  },
+  {
+    "code": "2077",
+    "name": "Fruit juice, from concentrate (average)",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "47,6",
+    "p": "0,55",
+    "g": "0,13",
+    "c": "10,4",
+    "alcohol": "0"
+  },
+  {
+    "code": "2377",
+    "name": "Blood orange juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "45,6",
+    "p": "0,63",
+    "g": "0,1",
+    "c": "10,2",
+    "alcohol": "0"
+  },
+  {
+    "code": "2381",
+    "name": "Cranberry juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "49,8",
+    "p": "-",
+    "g": "0,13",
+    "c": "12,1",
+    "alcohol": "0"
+  },
+  {
+    "code": "2500",
+    "name": "Smoothie, no precision on fruit content and other ingredients",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": "60,2",
+    "p": "0,62",
+    "g": "0,26",
+    "c": "12,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "2009",
+    "name": "Multifruit nectar, apple base, standard",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "41,1",
+    "p": "0,28",
+    "g": "< 0,1",
+    "c": "10",
+    "alcohol": "0"
+  },
+  {
+    "code": "2010",
+    "name": "Multifruit nectar, apple base, multivitamin",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "36,4",
+    "p": "0,05",
+    "g": "< 0,1",
+    "c": "9,1",
+    "alcohol": "0"
+  },
+  {
+    "code": "2022",
+    "name": "Strawberry nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "47,5",
+    "p": "0,3",
+    "g": "0,1",
+    "c": "11,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "2043",
+    "name": "Apricot nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "58,6",
+    "p": "0,21",
+    "g": "0,03",
+    "c": "13,7",
+    "alcohol": "0"
+  },
+  {
+    "code": "2045",
+    "name": "Papaya nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "58,9",
+    "p": "0,17",
+    "g": "0,15",
+    "c": "13,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "2054",
+    "name": "Pear nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "62,5",
+    "p": "0,19",
+    "g": "0,043",
+    "c": "14,8",
+    "alcohol": "0"
+  },
+  {
+    "code": "2060",
+    "name": "Multifruit nectar, multivitamin",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "47,2",
+    "p": "0,24",
+    "g": "0,1",
+    "c": "11,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "2061",
+    "name": "Multifruit nectar, standard",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "49,7",
+    "p": "0,3",
+    "g": "0,089",
+    "c": "11,5",
+    "alcohol": "0"
+  },
+  {
+    "code": "2062",
+    "name": "Multifruit nectar, orange base, multivitamin",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "42,6",
+    "p": "0,4",
+    "g": "< 0,1",
+    "c": "10,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "2063",
+    "name": "Multifruit nectar, orange base, standard",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "50,2",
+    "p": "0,25",
+    "g": "0,1",
+    "c": "11,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "2064",
+    "name": "Fruit nectar, with sweetener(s), reduced sugar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "23,2",
+    "p": "0,17",
+    "g": "0,037",
+    "c": "5,49",
+    "alcohol": "0"
+  },
+  {
+    "code": "2076",
+    "name": "Apple nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "44,9",
+    "p": "0,14",
+    "g": "0,075",
+    "c": "10,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "2365",
+    "name": "Passion fruit nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "68",
+    "p": "0,3",
+    "g": "0,1",
+    "c": "15,2",
+    "alcohol": "0"
+  },
+  {
+    "code": "2366",
+    "name": "Banana nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "53,8",
+    "p": "0,23",
+    "g": "0,048",
+    "c": "12,8",
+    "alcohol": "0"
+  },
+  {
+    "code": "2367",
+    "name": "Guava nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "48",
+    "p": "0,14",
+    "g": "0,23",
+    "c": "10,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "2370",
+    "name": "Mango nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "52,1",
+    "p": "0,21",
+    "g": "0,08",
+    "c": "11,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "2371",
+    "name": "Peach nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "50,3",
+    "p": "0,22",
+    "g": "0,05",
+    "c": "12,1",
+    "alcohol": "0"
+  },
+  {
+    "code": "2374",
+    "name": "Pineapple nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "52,4",
+    "p": "0,1",
+    "g": "0",
+    "c": "13",
+    "alcohol": "0"
+  },
+  {
+    "code": "2375",
+    "name": "Orange nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": "41,6",
+    "p": "0,32",
+    "g": "0,086",
+    "c": "9,19",
+    "alcohol": "0"
+  },
+  {
+    "code": "18001",
+    "name": "Carbonated beverage or soft drink, without fruit , no added sugars and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "0,23",
+    "p": "0,000022",
+    "g": "0,000022",
+    "c": "0,063",
+    "alcohol": "0"
+  },
+  {
+    "code": "18007",
+    "name": "Cocktail, alcohol-free (juices based cocktail without syrup)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "42,8",
+    "p": "0,033",
+    "g": "0,035",
+    "c": "10,7",
+    "alcohol": "0"
+  },
+  {
+    "code": "18010",
+    "name": "Lemonade, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "33",
+    "p": "0,000022",
+    "g": "0,000021",
+    "c": "8,24",
+    "alcohol": "0"
+  },
+  {
+    "code": "18012",
+    "name": "Bottled water, flavoured, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "16,2",
+    "p": "0,00046",
+    "g": "traces",
+    "c": "4,05",
+    "alcohol": "0"
+  },
+  {
+    "code": "18013",
+    "name": "Tonic drink, no added sugars, with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "0,2",
+    "p": "0,00002",
+    "g": "0,00002",
+    "c": "0,058",
+    "alcohol": "0"
+  },
+  {
+    "code": "18014",
+    "name": "Tonic drink, with sugar(s) and sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "22,2",
+    "p": "0,000071",
+    "g": "0,000063",
+    "c": "5,54",
+    "alcohol": "0"
+  },
+  {
+    "code": "18015",
+    "name": "Still soft drink with tea extract, with sugar(s) and sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "17,1",
+    "p": "0,027",
+    "g": "0,022",
+    "c": "4,25",
+    "alcohol": "0"
+  },
+  {
+    "code": "18016",
+    "name": "Lemonade, with sugar(s) and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "8",
+    "p": "0,00005",
+    "g": "0,0001",
+    "c": "2",
+    "alcohol": "0"
+  },
+  {
+    "code": "18018",
+    "name": "Cola, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "40,1",
+    "p": "0,000026",
+    "g": "0,000023",
+    "c": "10",
+    "alcohol": "0"
+  },
+  {
+    "code": "18019",
+    "name": "Carbonated beverage or fruit soft drink , fruit content >= 10% and < 50%, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "46,4",
+    "p": "0,028",
+    "g": "0,0097",
+    "c": "11,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "18021",
+    "name": "Still soft drink, fruit content <10%, no added sugars and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "4,07",
+    "p": "0,06",
+    "g": "0",
+    "c": "0,96",
+    "alcohol": "0"
+  },
+  {
+    "code": "18023",
+    "name": "Still soft drink, fruit content <10%, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "25,6",
+    "p": "0,13",
+    "g": "0,11",
+    "c": "6,39",
+    "alcohol": "0"
+  },
+  {
+    "code": "18024",
+    "name": "Still soft drink, fruit content >= 10% and < 50%, with sugar(s) and  with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "23,3",
+    "p": "0,06",
+    "g": "0,06",
+    "c": "5,83",
+    "alcohol": "0"
+  },
+  {
+    "code": "18025",
+    "name": "Kombucha, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "6,61",
+    "p": "0,25",
+    "g": "< 0,3",
+    "c": "1,45",
+    "alcohol": "0"
+  },
+  {
+    "code": "18026",
+    "name": "Carbonated beverage or soft drink, without fruit, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "34,5",
+    "p": "0,0016",
+    "g": "0,043",
+    "c": "8,28",
+    "alcohol": "0"
+  },
+  {
+    "code": "18028",
+    "name": "Bottled water, flavoured, no added sugars and no sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "0,096",
+    "p": "0,000026",
+    "g": "0,000026",
+    "c": "0,026",
+    "alcohol": "0"
+  },
+  {
+    "code": "18029",
+    "name": "Non-alcoholic beverage (average)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "27,9",
+    "p": "0,059",
+    "g": "0,023",
+    "c": "6,86",
+    "alcohol": "0"
+  },
+  {
+    "code": "18030",
+    "name": "Bottled water, flavoured, no added sugars and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "0,0017",
+    "p": "0,0001",
+    "g": "0,0001",
+    "c": "0,0001",
+    "alcohol": "0"
+  },
+  {
+    "code": "18033",
+    "name": "Carbonated beverage or fruit soft drink, fruit content < 10% , with sugar(s) and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "27,2",
+    "p": "0,0016",
+    "g": "0,00049",
+    "c": "6,79",
+    "alcohol": "0"
+  },
+  {
+    "code": "18034",
+    "name": "Carbonated beverage or fruit soft drink, fruit content >= 10% and < 50%, with sugar(s) and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "28,1",
+    "p": "0,022",
+    "g": "0,000013",
+    "c": "6,92",
+    "alcohol": "0"
+  },
+  {
+    "code": "18035",
+    "name": "Lemonade, no added sugars, with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "0,48",
+    "p": "0,000033",
+    "g": "0,000033",
+    "c": "0,12",
+    "alcohol": "0"
+  },
+  {
+    "code": "18037",
+    "name": "Cola, with sugar(s) and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "24,3",
+    "p": "0,000025",
+    "g": "0,000025",
+    "c": "6,07",
+    "alcohol": "0"
+  },
+  {
+    "code": "18039",
+    "name": "Lemonade with syrupwith sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "33,9",
+    "p": "0,06",
+    "g": "0,00004",
+    "c": "8,43",
+    "alcohol": "0"
+  },
+  {
+    "code": "18048",
+    "name": "Carbonated beverage or fruit soft drink (fruit juice content unknown), with sugar(s) (average)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "44,6",
+    "p": "0,025",
+    "g": "0,01",
+    "c": "10,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "18049",
+    "name": "Carbonated beverage or fruit soft drink, fruit content < 10% , with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "33,6",
+    "p": "0,011",
+    "g": "0,015",
+    "c": "8,36",
+    "alcohol": "0"
+  },
+  {
+    "code": "18050",
+    "name": "Carbonated beverage or fruit soft drink, fruit content <10%, reduced sugar",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "28,7",
+    "p": "0,0067",
+    "g": "0,1",
+    "c": "7,15",
+    "alcohol": "0"
+  },
+  {
+    "code": "18051",
+    "name": "Carbonated beverage or fruit soft drink, fruit content  >= 10% and < 50%, no added sugars and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "3,69",
+    "p": "0,027",
+    "g": "0,02",
+    "c": "0,91",
+    "alcohol": "0"
+  },
+  {
+    "code": "18057",
+    "name": "Preparation for beverage diluted in water (eg. mint, strawberry etc.), no added sugars, with sweetener(s), type syrup 0%",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "6",
+    "p": "0,25",
+    "g": "0",
+    "c": "1,5",
+    "alcohol": "0"
+  },
+  {
+    "code": "18058",
+    "name": "Syrup (eg. Mint, strawberry etc.), with sugar(s), diluted in water",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "31,2",
+    "p": "0,055",
+    "g": "0",
+    "c": "7,7",
+    "alcohol": "0"
+  },
+  {
+    "code": "18060",
+    "name": "Cola, without added sugars and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "1,04",
+    "p": "0,000019",
+    "g": "0,00002",
+    "c": "0,25",
+    "alcohol": "0"
+  },
+  {
+    "code": "18062",
+    "name": "Still soft drink with tea extract, sugar and sweetener contents unknown (average)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "21,1",
+    "p": "0,017",
+    "g": "0,0023",
+    "c": "5,26",
+    "alcohol": "0"
+  },
+  {
+    "code": "18063",
+    "name": "Cola, sugar(s) and sweetener(s) content unknown (average)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "27,5",
+    "p": "0,0056",
+    "g": "0,0056",
+    "c": "6,88",
+    "alcohol": "0"
+  },
+  {
+    "code": "18064",
+    "name": "Still soft drink with tea extract, flavoured, reduced sugar",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "14,9",
+    "p": "0,00001",
+    "g": "0,000011",
+    "c": "3,75",
+    "alcohol": "0"
+  },
+  {
+    "code": "18065",
+    "name": "Still soft drink with tea extract, flavoured, no added sugars and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "0,53",
+    "p": "0,000025",
+    "g": "0,000015",
+    "c": "0,22",
+    "alcohol": "0"
+  },
+  {
+    "code": "18067",
+    "name": "Cola, with sugar(s) and without caffeine",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "40,9",
+    "p": "0,05",
+    "g": "0,05",
+    "c": "10,2",
+    "alcohol": "0"
+  },
+  {
+    "code": "18068",
+    "name": "Cola, without added sugars, with sweetener(s) and no caffeine",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "0,058",
+    "p": "0,083",
+    "g": "0,083",
+    "c": "0,13",
+    "alcohol": "0"
+  },
+  {
+    "code": "18075",
+    "name": "Still soft drink with tea extract, flavoured, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "23,2",
+    "p": "0,02",
+    "g": "0,0027",
+    "c": "5,78",
+    "alcohol": "0"
+  },
+  {
+    "code": "18078",
+    "name": "Carbonated beverage or soft drink, without fruit, with sugar(s) and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "22,4",
+    "p": "0,0072",
+    "g": "0,000015",
+    "c": "5,58",
+    "alcohol": "0"
+  },
+  {
+    "code": "18294",
+    "name": "Still soft drink, fruit content <10%,  with sugar(s), refrigerated fortified with vitamin(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "33,7",
+    "p": "0",
+    "g": "0",
+    "c": "8,42",
+    "alcohol": "0"
+  },
+  {
+    "code": "18295",
+    "name": "Still soft drink, fruit content >= 10% and < 50%,  with sugar(s), fortified with vitamin(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "38",
+    "p": "0,00002",
+    "g": "0,00002",
+    "c": "9,49",
+    "alcohol": "0"
+  },
+  {
+    "code": "18296",
+    "name": "Still soft drink, with fruit puree, smoothie type, fruit content  >= 50%, fortified with vitamin(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "51,3",
+    "p": "0,52",
+    "g": "0,45",
+    "c": "11,5",
+    "alcohol": "0"
+  },
+  {
+    "code": "18297",
+    "name": "Still soft drink, fruit content >= 50%, room temperature, fortified with vitamin(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "45,1",
+    "p": "0,22",
+    "g": "0,000067",
+    "c": "10,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "18298",
+    "name": "Still soft drink, fruit content >= 50%,  room temperature",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "41,7",
+    "p": "0,19",
+    "g": "0,11",
+    "c": "10",
+    "alcohol": "0"
+  },
+  {
+    "code": "18299",
+    "name": "Still soft drink, lemonade, fruit content >= 10% and < 50%, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "23,2",
+    "p": "0,00003",
+    "g": "0,005",
+    "c": "5,77",
+    "alcohol": "0"
+  },
+  {
+    "code": "18300",
+    "name": "Still soft drink,  with fruit puree, smoothie type, fruit content >= 50%, no added sugars, refrigerated",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "67,5",
+    "p": "0,8",
+    "g": "1,45",
+    "c": "12,1",
+    "alcohol": "0"
+  },
+  {
+    "code": "18304",
+    "name": "Still soft drink, fruit content >= 10% and < 50%, reduced sugar",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "18,8",
+    "p": "0,22",
+    "g": "0,22",
+    "c": "4,71",
+    "alcohol": "0"
+  },
+  {
+    "code": "18305",
+    "name": "Still soft drink, fruit content >= 10% and < 50%, no added sugars",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "13",
+    "p": "0,052",
+    "g": "0,0067",
+    "c": "3,18",
+    "alcohol": "0"
+  },
+  {
+    "code": "18306",
+    "name": "Aloe vera beverage, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "32,9",
+    "p": "0,094",
+    "g": "0",
+    "c": "8,11",
+    "alcohol": "0"
+  },
+  {
+    "code": "18309",
+    "name": "Still soft drink, fruit content unknown, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "45,8",
+    "p": "0,1",
+    "g": "0,07",
+    "c": "11,2",
+    "alcohol": "0"
+  },
+  {
+    "code": "18315",
+    "name": "Fruit and vegetable beverage",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "42,9",
+    "p": "0,31",
+    "g": "0,12",
+    "c": "10",
+    "alcohol": "0"
+  },
+  {
+    "code": "18316",
+    "name": "Water kefir or Tibicos, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "3,6",
+    "p": "0,1",
+    "g": "< 0,5",
+    "c": "0,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "18324",
+    "name": "Energy drink, sugar and artifical sweetener contents unknown (average)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "35,2",
+    "p": "0,097",
+    "g": "0,0016",
+    "c": "8,77",
+    "alcohol": "0"
+  },
+  {
+    "code": "18325",
+    "name": "Still soft drink, fruit content unknown, sugar and sweetener contents unknown (average)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "39,3",
+    "p": "0,18",
+    "g": "0,13",
+    "c": "9,38",
+    "alcohol": "0"
+  },
+  {
+    "code": "18326",
+    "name": "Bottled water, flavoured, sugar and sweetener contents unknown (average)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "1,88",
+    "p": "0,000097",
+    "g": "0,000046",
+    "c": "0,47",
+    "alcohol": "0"
+  },
+  {
+    "code": "18327",
+    "name": "Lemonade, sugar and sweetener contents unknown (average)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "28,4",
+    "p": "0,000025",
+    "g": "0,000026",
+    "c": "7,09",
+    "alcohol": "0"
+  },
+  {
+    "code": "18328",
+    "name": "Syrup (eg. Mint, strawberry etc.), sugar content unknown, diluted in water (average)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "29,2",
+    "p": "0,071",
+    "g": "0",
+    "c": "7,21",
+    "alcohol": "0"
+  },
+  {
+    "code": "18329",
+    "name": "Carbonated beverage or soft drink, without fruit, sugar and  sweetener contents unknown (average)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "27,6",
+    "p": "0,0067",
+    "g": "0,0071",
+    "c": "6,87",
+    "alcohol": "0"
+  },
+  {
+    "code": "18339",
+    "name": "Still soft drink, fruit content >= 10% and < 50%, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "41,1",
+    "p": "0,13",
+    "g": "0,14",
+    "c": "9,92",
+    "alcohol": "0"
+  },
+  {
+    "code": "18340",
+    "name": "Carbonated beverage or fruit soft drink, fruit content < 10% , no added sugars and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "2,06",
+    "p": "0,063",
+    "g": "traces",
+    "c": "0,45",
+    "alcohol": "0"
+  },
+  {
+    "code": "18341",
+    "name": "Carbonated beverage, apple content >=  50% and <99%, no added sugars",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "30",
+    "p": "0",
+    "g": "0",
+    "c": "7,5",
+    "alcohol": "0"
+  },
+  {
+    "code": "18344",
+    "name": "Tonic drink, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "33,1",
+    "p": "traces",
+    "g": "traces",
+    "c": "8,27",
+    "alcohol": "0"
+  },
+  {
+    "code": "18345",
+    "name": "Carbonated beverage or fruit soft drink, fruit content < 10% , no added sugars and no sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "16,7",
+    "p": "0",
+    "g": "0",
+    "c": "4,17",
+    "alcohol": "0"
+  },
+  {
+    "code": "18347",
+    "name": "Birch sap beverage",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "2,8",
+    "p": "0,063",
+    "g": "0,063",
+    "c": "0,7",
+    "alcohol": "0"
+  },
+  {
+    "code": "18348",
+    "name": "Sports drink, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "21,7",
+    "p": "0,000013",
+    "g": "0,000013",
+    "c": "5,41",
+    "alcohol": "0"
+  },
+  {
+    "code": "18349",
+    "name": "Sports drink with added sugars, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "19,3",
+    "p": "0,000025",
+    "g": "0,000023",
+    "c": "4,82",
+    "alcohol": "0"
+  },
+  {
+    "code": "18352",
+    "name": "Energy drink, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "40,9",
+    "p": "0,095",
+    "g": "traces",
+    "c": "10,2",
+    "alcohol": "0"
+  },
+  {
+    "code": "18353",
+    "name": "Energy drink, no added sugar(s) and with sweetener(s), fortified with vitamins",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "8,57",
+    "p": "0,11",
+    "g": "0,0091",
+    "c": "2,06",
+    "alcohol": "0"
+  },
+  {
+    "code": "18354",
+    "name": "Energy drink, with sugar(s) and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "27,6",
+    "p": "0,042",
+    "g": "0,000046",
+    "c": "6,86",
+    "alcohol": "0"
+  },
+  {
+    "code": "18356",
+    "name": "Tonic drink, sugar(s) and sweetener(s) content unknown (average)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": "28,8",
+    "p": "0,000012",
+    "g": "0,000012",
+    "c": "7,21",
+    "alcohol": "0"
+  },
+  {
+    "code": "18343",
+    "name": "Still beverage with fruit juice and milk",
+    "group": [
+      "06",
+      "0602",
+      "060204",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes\nlactées"
+    ],
+    "kcal": "47,7",
+    "p": "0,68",
+    "g": "0,041",
+    "c": "10,7",
+    "alcohol": "0"
+  },
+  {
+    "code": "19114",
+    "name": "Vanilla flavoured milk, with sugar(s), partially skimmed, fortified with vitamin D",
+    "group": [
+      "06",
+      "0602",
+      "060204",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes\nlactées"
+    ],
+    "kcal": "57,4",
+    "p": "2",
+    "g": "0,6",
+    "c": "11",
+    "alcohol": "0"
+  },
+  {
+    "code": "19116",
+    "name": "Coffee flavoured milk beverage, with sugar(s), partially skimmed fortified with vitamin(s) and/or mineral(s)",
+    "group": [
+      "06",
+      "0602",
+      "060204",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes\nlactées"
+    ],
+    "kcal": "50,6",
+    "p": "2,9",
+    "g": "0,38",
+    "c": "8,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "19117",
+    "name": "Coffee flavoured milk beverage, with sugar(s), partially skimmed, not fortified",
+    "group": [
+      "06",
+      "0602",
+      "060204",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes\nlactées"
+    ],
+    "kcal": "70,3",
+    "p": "3,05",
+    "g": "2,33",
+    "c": "8,84",
+    "alcohol": "0"
+  },
+  {
+    "code": "19118",
+    "name": "Chocolate flavoured milk beverage, with sugar(s), partially skimmed, not fortified",
+    "group": [
+      "06",
+      "0602",
+      "060204",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes\nlactées"
+    ],
+    "kcal": "72,8",
+    "p": "3,42",
+    "g": "1,58",
+    "c": "11",
+    "alcohol": "0"
+  },
+  {
+    "code": "19119",
+    "name": "Chocolate flavoured milk beverage, with sugar(s), partially skimmed, fortified with vitamin(s) and/or mineral(s)",
+    "group": [
+      "06",
+      "0602",
+      "060204",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes\nlactées"
+    ],
+    "kcal": "66,5",
+    "p": "2,96",
+    "g": "1,15",
+    "c": "10,8",
+    "alcohol": "0"
+  },
+  {
+    "code": "19120",
+    "name": "Flavoured milk beverage, with sugar(s), partially skimmed, fortified with vitamins and/ormineral(s) (average)",
+    "group": [
+      "06",
+      "0602",
+      "060204",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes\nlactées"
+    ],
+    "kcal": "61",
+    "p": "2,59",
+    "g": "0,84",
+    "c": "10,7",
+    "alcohol": "0"
+  },
+  {
+    "code": "19127",
+    "name": "Strawberry flavoured milk, with sugar(s), partially skimmed, fortified with vitamin D",
+    "group": [
+      "06",
+      "0602",
+      "060204",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes\nlactées"
+    ],
+    "kcal": "58,8",
+    "p": "2,48",
+    "g": "0,72",
+    "c": "10,7",
+    "alcohol": "0"
+  },
+  {
+    "code": "18011",
+    "name": "Coconut water",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "11,8",
+    "p": "0,25",
+    "g": "< 0,3",
+    "c": "3,33",
+    "alcohol": "0"
+  },
+  {
+    "code": "18107",
+    "name": "Almond drink, plain, no added sugars, not fortified, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "35,8",
+    "p": "1,06",
+    "g": "3,2",
+    "c": "0,68",
+    "alcohol": "0"
+  },
+  {
+    "code": "18110",
+    "name": "Almond drink, with sugar(s), fortified with calcium, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "43,9",
+    "p": "0,69",
+    "g": "2,8",
+    "c": "3,96",
+    "alcohol": "0"
+  },
+  {
+    "code": "18111",
+    "name": "Almond drink, prepacked (average)",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "35,8",
+    "p": "1,06",
+    "g": "3,2",
+    "c": "0,68",
+    "alcohol": "0"
+  },
+  {
+    "code": "18112",
+    "name": "Plant-based drink, prepacked (average)",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "43,6",
+    "p": "2,91",
+    "g": "2,33",
+    "c": "2,38",
+    "alcohol": "0"
+  },
+  {
+    "code": "18113",
+    "name": "Soy drink, prepacked (average)",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "46,1",
+    "p": "3,52",
+    "g": "2,04",
+    "c": "2,93",
+    "alcohol": "0"
+  },
+  {
+    "code": "18899",
+    "name": "Oat drink, plain, no added sugar, not fortified, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "41",
+    "p": "0,25",
+    "g": "1,1",
+    "c": "7,78",
+    "alcohol": "0"
+  },
+  {
+    "code": "18900",
+    "name": "Soy drink, plain, not fortified, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "42,4",
+    "p": "3,5",
+    "g": "2,1",
+    "c": "1,87",
+    "alcohol": "0"
+  },
+  {
+    "code": "18901",
+    "name": "Soy drink, plain, fortified with calcium, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "44,2",
+    "p": "3,75",
+    "g": "2,05",
+    "c": "2,18",
+    "alcohol": "0"
+  },
+  {
+    "code": "18902",
+    "name": "Soy drink, flavoured, with sugar(s), not fortified, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "61,9",
+    "p": "3,38",
+    "g": "1,8",
+    "c": "7,54",
+    "alcohol": "0"
+  },
+  {
+    "code": "18903",
+    "name": "Soy drink, flavoured, with sugar(s), fortified in calcium, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "43,2",
+    "p": "3,3",
+    "g": "1,8",
+    "c": "2,89",
+    "alcohol": "0"
+  },
+  {
+    "code": "18904",
+    "name": "Rice drink, plain, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "52,2",
+    "p": "0,25",
+    "g": "1",
+    "c": "10,8",
+    "alcohol": "0"
+  },
+  {
+    "code": "18906",
+    "name": "Chestnut drink, plain, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "67,9",
+    "p": "0,25",
+    "g": "1,4",
+    "c": "13,5",
+    "alcohol": "0"
+  },
+  {
+    "code": "18907",
+    "name": "Coconut drink, plain, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "29,9",
+    "p": "0,25",
+    "g": "2,1",
+    "c": "2,75",
+    "alcohol": "0"
+  },
+  {
+    "code": "29209",
+    "name": "Soy drink with concentrated fruit juice, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": "56,2",
+    "p": "2,3",
+    "g": "1",
+    "c": "9,5",
+    "alcohol": "0"
+  },
+  {
+    "code": "18004",
+    "name": "Coffee, non instant no added sugars, ready-to-drink",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "5,78",
+    "p": "0,25",
+    "g": "0,018",
+    "c": "1,35",
+    "alcohol": "0"
+  },
+  {
+    "code": "18020",
+    "name": "Tea, brewed, no added sugars",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "0,4",
+    "p": "0,1",
+    "g": "0",
+    "c": "0",
+    "alcohol": "0"
+  },
+  {
+    "code": "18022",
+    "name": "Infusion, brewed, no added sugars",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "0,8",
+    "p": "0",
+    "g": "0",
+    "c": "0,2",
+    "alcohol": "0"
+  },
+  {
+    "code": "18070",
+    "name": "Decaffeinated non instant coffee, no added sugars, ready-to-drink",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "4,42",
+    "p": "0,1",
+    "g": "0,18",
+    "c": "0,6",
+    "alcohol": "0"
+  },
+  {
+    "code": "18071",
+    "name": "Espresso coffee non instant coffee, no added sugars, ready-to-drink",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "6,54",
+    "p": "0,25",
+    "g": "0,2",
+    "c": "1,16",
+    "alcohol": "0"
+  },
+  {
+    "code": "18072",
+    "name": "Decaffeinated instant coffee, no added sugars, ready-to-drink",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "2,1",
+    "p": "0,12",
+    "g": "0,002",
+    "c": "0,4",
+    "alcohol": "0"
+  },
+  {
+    "code": "18073",
+    "name": "Instant coffee, no added sugars, ready-to-drink",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "1,64",
+    "p": "0,1",
+    "g": "0,004",
+    "c": "0,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "18104",
+    "name": "Instant cocoa or chocolate beverage, with sugar(s), ready-to-drink (reconstituted with standard semi-skimmed milk)",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "65,9",
+    "p": "3,78",
+    "g": "1,42",
+    "c": "9,5",
+    "alcohol": "0"
+  },
+  {
+    "code": "18106",
+    "name": "Instant cocoa or chocolate beverage, with sugar(s), fortified with vitamins, ready-to-drink (reconstituted with semi-skimmed milk)",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "71,4",
+    "p": "4,08",
+    "g": "1,71",
+    "c": "9,91",
+    "alcohol": "0"
+  },
+  {
+    "code": "18151",
+    "name": "Coffee with milk or white coffee or cappuccino, instant or non instant coffee, no added sugars, ready-to-drink",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "21,5",
+    "p": "1,36",
+    "g": "0,76",
+    "c": "2,31",
+    "alcohol": "0"
+  },
+  {
+    "code": "18153",
+    "name": "Mix of chicory and coffee, instant, no added sugars, ready-to-drink (reconstituted with standard semi-skimmed milk)",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "53,7",
+    "p": "3,66",
+    "g": "1,62",
+    "c": "5,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "18154",
+    "name": "Black tea, brewed, no added sugars",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "1,26",
+    "p": "0",
+    "g": "0,007",
+    "c": "0,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "18155",
+    "name": "Green tea, brewed, no added sugars",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "5,1",
+    "p": "0",
+    "g": "0",
+    "c": "1,09",
+    "alcohol": "0"
+  },
+  {
+    "code": "18161",
+    "name": "Instant chicory, no added sugars, ready-to-drink (reconstituted with standard semi-skimmed milk)",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "93,5",
+    "p": "traces",
+    "g": "7,1",
+    "c": "7,1",
+    "alcohol": "0"
+  },
+  {
+    "code": "18162",
+    "name": "Mix of chicory and coffee, instant, no added sugars, ready-to-drink (reconstituted with water)",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": "27,8",
+    "p": "0,56",
+    "g": "< 0,3",
+    "c": "6,06",
+    "alcohol": "0"
+  },
+  {
+    "code": "18003",
+    "name": "Coffee, ground",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "341",
+    "p": "13,9",
+    "g": "13,9",
+    "c": "20,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "18005",
+    "name": "Coffee, powder, instant",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "291",
+    "p": "18,5",
+    "g": "1,1",
+    "c": "41,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "18017",
+    "name": "Syrup, to be diluted, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "252",
+    "p": "0,25",
+    "g": "< 0,5",
+    "c": "62,5",
+    "alcohol": "0"
+  },
+  {
+    "code": "18059",
+    "name": "Concentrate beverage (to be diluted), no added sugars and with sweeteners, \"syrup 0%\" type",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "19,5",
+    "p": "0,25",
+    "g": "< 0,5",
+    "c": "3,79",
+    "alcohol": "0"
+  },
+  {
+    "code": "18069",
+    "name": "Decaffeinated coffee, powder, instant",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "352",
+    "p": "11,6",
+    "g": "0,2",
+    "c": "76",
+    "alcohol": "0"
+  },
+  {
+    "code": "18076",
+    "name": "Tea leaf",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "232",
+    "p": "19,4",
+    "g": "2",
+    "c": "6,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "18100",
+    "name": "Cocoa powder, no added sugars, powder, instant",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "387",
+    "p": "22,4",
+    "g": "20,6",
+    "c": "11,6",
+    "alcohol": "0"
+  },
+  {
+    "code": "18101",
+    "name": "Cocoa or chocolate powder, for beverages, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "379",
+    "p": "6,65",
+    "g": "3,29",
+    "c": "75,6",
+    "alcohol": "0"
+  },
+  {
+    "code": "18102",
+    "name": "Malted cocoa or chocolate powder for beverage, with sugar(s), fortified with vitamins and minerals",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "-",
+    "p": "9,9",
+    "g": "5,03",
+    "c": "79,4",
+    "alcohol": "0"
+  },
+  {
+    "code": "18150",
+    "name": "Mix of chicory and coffee, powder, instant",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "332",
+    "p": "9,3",
+    "g": "0,35",
+    "c": "66,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "18152",
+    "name": "Chicory, powder, instant",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "323",
+    "p": "3,3",
+    "g": "2,5",
+    "c": "57,2",
+    "alcohol": "0"
+  },
+  {
+    "code": "18160",
+    "name": "Coffee with milk or cappuccino, powder, instant",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "416",
+    "p": "11,9",
+    "g": "8,8",
+    "c": "70,1",
+    "alcohol": "0"
+  },
+  {
+    "code": "18163",
+    "name": "Coffee with milk or cappuccino with chocolate, powder, instant",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "384",
+    "p": "11",
+    "g": "9",
+    "c": "63",
+    "alcohol": "0"
+  },
+  {
+    "code": "18167",
+    "name": "Cocoa or chocolate powder, for beverages, with sugar(s), fortified with vitamins and minerals",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "376",
+    "p": "4,68",
+    "g": "3,04",
+    "c": "79,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "18168",
+    "name": "Cocoa or chocolate powder, for beverages, with sugar(s), fortified with vitamins",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "386",
+    "p": "4,29",
+    "g": "2,04",
+    "c": "85",
+    "alcohol": "0"
+  },
+  {
+    "code": "18220",
+    "name": "Lemon speciality to be diluted, for beverages or culinary use, no added sugars",
+    "group": [
+      "06",
+      "0602",
+      "060207",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons à reconstituer"
+    ],
+    "kcal": "18,4",
+    "p": "0,25",
+    "g": "0",
+    "c": "1,01",
+    "alcohol": "0"
+  },
+  {
+    "code": "1006",
+    "name": "Wine, sweet",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": "148",
+    "p": "0,2",
+    "g": "0",
+    "c": "9,96",
+    "alcohol": "15,3"
+  },
+  {
+    "code": "5100",
+    "name": "Sparkling fruit wine",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": "65,7",
+    "p": "0",
+    "g": "0",
+    "c": "6,95",
+    "alcohol": "5,41"
+  },
+  {
+    "code": "5201",
+    "name": "Wine, white, sparkling",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": "72,3",
+    "p": "0,1",
+    "g": "0",
+    "c": "1,78",
+    "alcohol": "9,26"
+  },
+  {
+    "code": "5207",
+    "name": "Champagne",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": "76,1",
+    "p": "0,3",
+    "g": "0",
+    "c": "1,4",
+    "alcohol": "9,9"
+  },
+  {
+    "code": "5209",
+    "name": "Wine, white, sparkling, flavoured",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": "83,5",
+    "p": "0,2",
+    "g": "0",
+    "c": "5,1",
+    "alcohol": "8,9"
+  },
+  {
+    "code": "5210",
+    "name": "Wine (average)",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": "76,7",
+    "p": "0,16",
+    "g": "< 0,3",
+    "c": "0,96",
+    "alcohol": "10,4"
+  },
+  {
+    "code": "5214",
+    "name": "Wine, red",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": "75,7",
+    "p": "0,16",
+    "g": "< 0,5",
+    "c": "0",
+    "alcohol": "10,8"
+  },
+  {
+    "code": "5215",
+    "name": "Wine, white, dry",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": "55,3",
+    "p": "0,25",
+    "g": "0",
+    "c": "0,17",
+    "alcohol": "7,75"
+  },
+  {
+    "code": "5216",
+    "name": "Wine, rose",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": "69,2",
+    "p": "0,15",
+    "g": "0",
+    "c": "1,4",
+    "alcohol": "9"
+  },
+  {
+    "code": "5000",
+    "name": "Beer, dark",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "40,5",
+    "p": "0,43",
+    "g": "traces",
+    "c": "4,1",
+    "alcohol": "3,19"
+  },
+  {
+    "code": "5001",
+    "name": "Beer, regular (4-5° alcohol)",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "39",
+    "p": "0,39",
+    "g": "0",
+    "c": "3,12",
+    "alcohol": "3,57"
+  },
+  {
+    "code": "5002",
+    "name": "Beer, strong (>8° alcohol)",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "62,5",
+    "p": "0,51",
+    "g": "0",
+    "c": "4,6",
+    "alcohol": "6"
+  },
+  {
+    "code": "5003",
+    "name": "Cider (average)",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "36,5",
+    "p": "0,075",
+    "g": "< 0,18",
+    "c": "3,67",
+    "alcohol": "3,18"
+  },
+  {
+    "code": "5006",
+    "name": "Cider, dry",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "35,9",
+    "p": "0",
+    "g": "0",
+    "c": "2,62",
+    "alcohol": "3,72"
+  },
+  {
+    "code": "5007",
+    "name": "Cider, sweet",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "38,9",
+    "p": "0,25",
+    "g": "< 0,6",
+    "c": "6,4",
+    "alcohol": "1,91"
+  },
+  {
+    "code": "5008",
+    "name": "Beer, low alcohol-content (3° alcohol)",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "35,3",
+    "p": "0,31",
+    "g": "< 0,05",
+    "c": "4,62",
+    "alcohol": "2,23"
+  },
+  {
+    "code": "5009",
+    "name": "Beer, white",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "60,9",
+    "p": "0,5",
+    "g": "< 0,5",
+    "c": "7,55",
+    "alcohol": "4,09"
+  },
+  {
+    "code": "5010",
+    "name": "Beer, special (5-6° alcohol)",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "56",
+    "p": "0,48",
+    "g": "< 0,05",
+    "c": "4,55",
+    "alcohol": "5,13"
+  },
+  {
+    "code": "5011",
+    "name": "Beer, from an abbey or brewery (variable alcohol content)",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "47,1",
+    "p": "0,51",
+    "g": "0",
+    "c": "3,2",
+    "alcohol": "4,6"
+  },
+  {
+    "code": "5020",
+    "name": "Cider, traditionnal",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "32,5",
+    "p": "0",
+    "g": "0",
+    "c": "1,87",
+    "alcohol": "3,64"
+  },
+  {
+    "code": "5021",
+    "name": "Cider, half-dry",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "44,3",
+    "p": "0,25",
+    "g": "< 0,6",
+    "c": "4,4",
+    "alcohol": "3,71"
+  },
+  {
+    "code": "5022",
+    "name": "Cider, fruit-flavoured",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "38,4",
+    "p": "0,25",
+    "g": "< 0,6",
+    "c": "7,07",
+    "alcohol": "1,36"
+  },
+  {
+    "code": "5029",
+    "name": "Beer, alcohol-free, sweetened, flavoured or with fruit juice",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "30,6",
+    "p": "0,2",
+    "g": "0,041",
+    "c": "7,36",
+    "alcohol": "traces"
+  },
+  {
+    "code": "5030",
+    "name": "Beer, alcohol-free (<1,2° alcohol), without added sugars, flavoured or unflavoured",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": "29,4",
+    "p": "0,2",
+    "g": "0,053",
+    "c": "6,08",
+    "alcohol": "0,62"
+  },
+  {
+    "code": "1000",
+    "name": "Pastis (anise-flavoured spirit)",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "274",
+    "p": "0",
+    "g": "0",
+    "c": "2,86",
+    "alcohol": "37,5"
+  },
+  {
+    "code": "1001",
+    "name": "Fruit brandy or eau-de-vie",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "233",
+    "p": "0",
+    "g": "0",
+    "c": "0,63",
+    "alcohol": "32,9"
+  },
+  {
+    "code": "1002",
+    "name": "Gin",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "265",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "37,9"
+  },
+  {
+    "code": "1003",
+    "name": "Liqueur",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "225",
+    "p": "0,1",
+    "g": "0,23",
+    "c": "25,4",
+    "alcohol": "17,3"
+  },
+  {
+    "code": "1004",
+    "name": "Rum",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "234",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "33,4"
+  },
+  {
+    "code": "1005",
+    "name": "Whisky",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "252",
+    "p": "0",
+    "g": "0",
+    "c": "0,096",
+    "alcohol": "36"
+  },
+  {
+    "code": "1007",
+    "name": "Wine-based aperitif",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "137",
+    "p": "0,054",
+    "g": "0",
+    "c": "11,3",
+    "alcohol": "13,1"
+  },
+  {
+    "code": "1008",
+    "name": "Vodka",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "250",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "35,7"
+  },
+  {
+    "code": "1010",
+    "name": "Anise spirit, diluted (1+5)",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "-",
+    "p": "0",
+    "g": "0",
+    "c": "0,5",
+    "alcohol": "-"
+  },
+  {
+    "code": "1011",
+    "name": "Pastis, alcohol-free, to be diluted",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "6",
+    "p": "0",
+    "g": "0",
+    "c": "1",
+    "alcohol": "0"
+  },
+  {
+    "code": "1014",
+    "name": "Pure alcohol",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "660",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "94,3"
+  },
+  {
+    "code": "1015",
+    "name": "Marsala wine",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "211",
+    "p": "0,1",
+    "g": "0",
+    "c": "27,9",
+    "alcohol": "14,2"
+  },
+  {
+    "code": "1016",
+    "name": "Marsala with eggs",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "153",
+    "p": "0",
+    "g": "0",
+    "c": "12,4",
+    "alcohol": "14,8"
+  },
+  {
+    "code": "1021",
+    "name": "Blackcurrant liqueur",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "245",
+    "p": "0",
+    "g": "0",
+    "c": "41",
+    "alcohol": "11,6"
+  },
+  {
+    "code": "1023",
+    "name": "Brandy, Armagnac or Cognac type",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "222",
+    "p": "0",
+    "g": "0",
+    "c": "0,76",
+    "alcohol": "31,3"
+  },
+  {
+    "code": "1024",
+    "name": "Apple brandy, Calvados type",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "-",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "-"
+  },
+  {
+    "code": "1026",
+    "name": "Sake or rice wine",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": "113",
+    "p": "0",
+    "g": "0",
+    "c": "0",
+    "alcohol": "16,1"
+  },
+  {
+    "code": "1012",
+    "name": "Cocktail, rum-based",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": "121",
+    "p": "0",
+    "g": "2,19",
+    "c": "7,74",
+    "alcohol": "9,9"
+  },
+  {
+    "code": "1013",
+    "name": "Cocktail, whisky-based",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": "166",
+    "p": "traces",
+    "g": "0,02",
+    "c": "15,8",
+    "alcohol": "14,6"
+  },
+  {
+    "code": "1017",
+    "name": "Sangria",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": "88,7",
+    "p": "0",
+    "g": "0,05",
+    "c": "11",
+    "alcohol": "6,32"
+  },
+  {
+    "code": "1018",
+    "name": "Kir (white wine with blackcurrant liqueur)",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": "74,7",
+    "p": "0,18",
+    "g": "0",
+    "c": "3,3",
+    "alcohol": "8,69"
+  },
+  {
+    "code": "1019",
+    "name": "Kir royal (champagne with blackcurrant liqueur)",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": "87,3",
+    "p": "0,25",
+    "g": "0",
+    "c": "5,66",
+    "alcohol": "9,1"
+  },
+  {
+    "code": "1022",
+    "name": "Cocktail, punch type, 16% alcohol, prepacked",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": "159",
+    "p": "0,6",
+    "g": "< 0,6",
+    "c": "17,8",
+    "alcohol": "12,1"
+  },
+  {
+    "code": "2008",
+    "name": "Cocktail, alcohol-free (juices and syrup-based cocktail)",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": "46",
+    "p": "0,42",
+    "g": "0",
+    "c": "10,9",
+    "alcohol": "0"
+  },
+  {
+    "code": "5004",
+    "name": "Shandy (beer + lemonade)",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": "39",
+    "p": "0",
+    "g": "0",
+    "c": "6,33",
+    "alcohol": "1,95"
+  },
+  {
+    "code": "5005",
+    "name": "Shandy, prepacked (<1° alcohol), flavoured or plain",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": "32",
+    "p": "0,0046",
+    "g": "0,021",
+    "c": "7,11",
+    "alcohol": "0,5"
+  },
+  {
+    "code": "3000",
+    "name": "Baby milk, infant formula, powder",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "496",
+    "p": "10,7",
+    "g": "25,3",
+    "c": "55",
+    "alcohol": "0"
+  },
+  {
+    "code": "3002",
+    "name": "Baby milk, follow-on formula, powder",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "484",
+    "p": "11,4",
+    "g": "23,2",
+    "c": "56,3",
+    "alcohol": "0"
+  },
+  {
+    "code": "13159",
+    "name": "Baby fruit-based beverage, from 4/6 months",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "35,1",
+    "p": "0,25",
+    "g": "< 0,5",
+    "c": "8,57",
+    "alcohol": "0"
+  },
+  {
+    "code": "13160",
+    "name": "Baby plant-based beverage",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "23,2",
+    "p": "0,25",
+    "g": "< 0,5",
+    "c": "5,8",
+    "alcohol": "0"
+  },
+  {
+    "code": "13161",
+    "name": "Dairy and cereal-based beverage for baby's dinner, with vegetables, from 4/6 months",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "82,1",
+    "p": "2,1",
+    "g": "2,83",
+    "c": "11,6",
+    "alcohol": "0"
+  },
+  {
+    "code": "13162",
+    "name": "Dairy and cereal-based beverage for baby's snack, with fruits, from 4/6 months",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "67,6",
+    "p": "1,71",
+    "g": "3",
+    "c": "7,7",
+    "alcohol": "0"
+  },
+  {
+    "code": "13163",
+    "name": "Dairy and cereal-based beverage for baby's breakfast, from 4/6 months",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "80,7",
+    "p": "1,94",
+    "g": "2,7",
+    "c": "12,1",
+    "alcohol": "0"
+  },
+  {
+    "code": "13169",
+    "name": "Dairy and cereal-based beverage for baby's breakfast, from 8/9 months",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "81,2",
+    "p": "2,31",
+    "g": "2,8",
+    "c": "11,6",
+    "alcohol": "0"
+  },
+  {
+    "code": "13170",
+    "name": "Dairy and cereal-based beverage for baby's breakfast, from 12 months",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "86,3",
+    "p": "2,18",
+    "g": "2,78",
+    "c": "12,6",
+    "alcohol": "0"
+  },
+  {
+    "code": "13171",
+    "name": "Dairy beverage for baby's snack from 4/6 months, with fruits (without cereals)",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "72,5",
+    "p": "1,81",
+    "g": "2,6",
+    "c": "10,4",
+    "alcohol": "0"
+  },
+  {
+    "code": "13172",
+    "name": "Dairy and cereal-based beverage for baby's dinner, with vegetables, from 4/6 months",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "-",
+    "p": "-",
+    "g": "8,93",
+    "c": "23,6",
+    "alcohol": "0"
+  },
+  {
+    "code": "13173",
+    "name": "Dairy and cereal-based beverage for baby's breakfast",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "85,5",
+    "p": "1,86",
+    "g": "2,89",
+    "c": "12,7",
+    "alcohol": "0"
+  },
+  {
+    "code": "13182",
+    "name": "Dairy and cereal-based beverage for baby (average)",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "86",
+    "p": "2,17",
+    "g": "2,78",
+    "c": "12,6",
+    "alcohol": "0"
+  },
+  {
+    "code": "19012",
+    "name": "Baby milk, growing-up milk, ready to drink",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "60,9",
+    "p": "1,25",
+    "g": "2,71",
+    "c": "7,77",
+    "alcohol": "0"
+  },
+  {
+    "code": "19013",
+    "name": "Baby milk, infant formula, ready to drink",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "71,3",
+    "p": "1,19",
+    "g": "3,79",
+    "c": "8,04",
+    "alcohol": "0"
+  },
+  {
+    "code": "19014",
+    "name": "Baby milk, follow-on formula, ready to drink",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "65,1",
+    "p": "1,19",
+    "g": "2,9",
+    "c": "8,23",
+    "alcohol": "0"
+  },
+  {
+    "code": "19015",
+    "name": "Baby milk, for premature baby, ready to drink",
+    "group": [
+      "11",
+      "1101",
+      "000000",
+      "aliments infantiles",
+      "laits et boissons\ninfantiles",
+      "-"
+    ],
+    "kcal": "-",
+    "p": "-",
+    "g": "24,7",
+    "c": "48,5",
+    "alcohol": "0"
+  }
+]

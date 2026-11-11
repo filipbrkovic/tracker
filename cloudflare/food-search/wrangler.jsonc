@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "localcal-food-search",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-11-11",
+  "workers_dev": true,
+  "secrets": { "required": ["SEARCH_TOKEN"] },
+  "vars": {
+    "OFF_USER_AGENT": "LocalCal/1.0 (https://github.com/heizelnut/tracker)"
+  }
+}

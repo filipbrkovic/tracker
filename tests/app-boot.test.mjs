@@ -73,7 +73,7 @@ function makeDom() {
   return document;
 }
 
-test('index.html si avvia e marca le modifiche come da sincronizzare', () => {
+test('index.html si avvia e marca le modifiche come da sincronizzare', async () => {
   const html = readFileSync(fileURLToPath(new URL('../index.html', import.meta.url)), 'utf8');
   const script = html.match(/<script>([\s\S]*)<\/script>/)[1];
 
@@ -99,6 +99,8 @@ test('index.html si avvia e marca le modifiche come da sincronizzare', () => {
     getComputedStyle: () => ({getPropertyValue: () => '#000'}),
     crypto: globalThis.crypto,
     URL: globalThis.URL,
+    URLSearchParams: globalThis.URLSearchParams,
+    AbortSignal: globalThis.AbortSignal,
     Blob: globalThis.Blob,
     Response: globalThis.Response,
     AbortController: globalThis.AbortController,
@@ -113,7 +115,7 @@ test('index.html si avvia e marca le modifiche come da sincronizzare', () => {
       '\n;globalThis.__app={save,backupData,pendingCount,applyDelta,outboxRecords,KEY,' +
       'getEntries:()=>entries,getFoods:()=>foods,getMeta:()=>meta,' +
       'setWorkouts:(w)=>{workouts=w},setLifts:(l)=>{lifts=l},setExpanded:(id)=>{expandedWorkoutId=id},' +
-      'renderWorkouts,getWorkoutHTML:()=>document.getElementById("workoutBody").innerHTML,' +
+      'renderWorkouts,renderDiary,pushDiaryItem,setDiaryMeal,moveDiaryItem,searchOnlineFoods,selectOnlineFood,getDiary:()=>diary,getWorkoutHTML:()=>document.getElementById("workoutBody").innerHTML,' +
       'addEntry:(rec)=>{entries=[...entries,rec];save(KEY,entries)}};',
     ctx,
   );
@@ -136,9 +138,56 @@ test('index.html si avvia e marca le modifiche come da sincronizzare', () => {
 
   // Un delta del server viene applicato al dispositivo.
   app.applyDelta({records: [
-    {collection: 'foods', id: 'f1', data: {id: 'f1', name: 'Pollo', p: 23}, updated: 9_000_000_000_000},
+    {collection: 'foods', id: 'f1', data: {id: 'f1', name: 'Pollo', p: 23, g: 2, c: 0, kcal: 110}, updated: 9_000_000_000_000},
   ]});
   assert.ok(app.getFoods().some((f) => f.id === 'f1'), 'il client deve applicare il delta del server');
+
+  // Native datalist selection inserts the option value into the input.
+  const foodInput = sandbox.document.getElementById('diaryFood');
+  foodInput.value = 'Pol';
+  foodInput.oninput();
+  const options = sandbox.document.getElementById('foodOptions').innerHTML;
+  assert.ok(options.includes('value="Pollo"'), 'typing must offer the food name as the selectable value');
+  assert.ok(!options.includes('value="f1"'), 'autocomplete must not insert the internal food ID');
+  foodInput.value = 'Pollo';
+  foodInput.onchange();
+  assert.ok(sandbox.document.getElementById('selectedFoodSummary').textContent.startsWith('Pollo ·'), 'selection by name must resolve to the saved food');
+
+  const date='2026-11-11', food=app.getFoods().find(f=>f.id==='f1');
+  sandbox.document.getElementById('diaryDate').value=date;
+  sandbox.document.getElementById('diaryMeal').value='breakfast';
+  app.pushDiaryItem(date,food,100);
+  sandbox.document.getElementById('diaryMeal').value='lunch';
+  app.pushDiaryItem(date,food,50);
+  const day=app.getDiary()[date];
+  assert.equal(day.items[0].meal,'breakfast');assert.equal(day.items[1].meal,'lunch');
+  const firstId=day.items[0].id;
+  app.setDiaryMeal(date,firstId,'dinner');
+  assert.equal(day.items[0].id,firstId);assert.equal(day.items[0].kcal,110);
+  assert.equal(JSON.parse(store.get('ricomposizione_diary_v1'))[date].items[0].meal,'dinner');
+  app.moveDiaryItem(date,firstId,1);
+  assert.equal(day.items[0].id,firstId,'move down cannot leave its meal');
+  app.renderDiary();
+  const diaryHTML=sandbox.document.getElementById('diaryItems').innerHTML;
+  for(const meal of ['breakfast','lunch','dinner','snacks'])assert.ok(diaryHTML.includes(`id="meal-${meal}"`));
+  assert.ok(diaryHTML.includes('data-addmeal="lunch"'));
+  assert.ok(!diaryHTML.includes('id="meal-unassigned"'));
+  assert.equal(app.backupData().diary[date].items[0].meal,'dinner');
+
+  // Real search/selection/form handlers: choosing a result only creates a draft.
+  sandbox.fetch=async()=>Response.json({provider:'Open Food Facts',results:[{code:'3858888602825',name:'Example biscuits',brand:'Example',usable:true,kcal:447,p:null,g:18,c:62,aliases:['Primjer'],notes:[]}]});
+  foodInput.value='Example';
+  await app.searchOnlineFoods();app.selectOnlineFood(0);
+  sandbox.document.getElementById('useOnlineFood').onclick();
+  assert.ok(sandbox.document.getElementById('onlineFoodNotes').textContent.includes('Confirm'));
+  sandbox.document.getElementById('onlineFoodBasis').value='100g';
+  sandbox.document.getElementById('useOnlineFood').onclick();
+  assert.equal(sandbox.document.getElementById('fName').value,'Example biscuits');
+  assert.equal(sandbox.document.getElementById('fKcal').value,447);
+  assert.equal(sandbox.document.getElementById('fP').value,'');
+  assert.equal(app.getFoods().length,1,'choosing a candidate must not save it automatically');
+  sandbox.document.getElementById('foodForm').onsubmit({preventDefault(){}});
+  assert.equal(app.getFoods().length,2);assert.equal(app.getFoods().find(f=>f.name==='Example biscuits').p,null);
 
   const backup = app.backupData();
   assert.equal(backup.version, 5);

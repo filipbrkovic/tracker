@@ -45,9 +45,10 @@ const minGzipBytes = 860
 var keyRE = regexp.MustCompile(`^[A-Za-z0-9_-]{1,64}$`)
 
 type server struct {
-	dataDir string
-	store   *store
-	hub     *hub
+	dataDir    string
+	store      *store
+	hub        *hub
+	foodSearch *foodSearchProxy
 }
 
 func main() {
@@ -59,7 +60,11 @@ func main() {
 		log.Fatalf("create data dir: %v", err)
 	}
 
-	s := &server{dataDir: dataDir}
+	foodSearch, searchErr := newFoodSearchProxy(env("FOOD_SEARCH_WORKER_URL", ""), env("FOOD_SEARCH_WORKER_TOKEN", ""))
+	if searchErr != nil {
+		log.Printf("online food search disabled: %v", searchErr)
+	}
+	s := &server{dataDir: dataDir, foodSearch: foodSearch}
 	st, err := openStore(filepath.Join(dataDir, "tracker.db"))
 	if err != nil {
 		log.Fatalf("open store: %v", err)
@@ -79,6 +84,8 @@ func main() {
 	mux.HandleFunc("GET /api/sync/{key}", s.syncPull)
 	mux.HandleFunc("POST /api/sync/{key}", s.syncPush)
 	mux.HandleFunc("GET /api/events/{key}", s.events)
+	mux.HandleFunc("GET /api/food-search/config", s.foodSearchConfig)
+	mux.HandleFunc("GET /api/food-search", s.searchFoods)
 	// MCP (Streamable HTTP) so agents can inspect and extend the tracker.
 	mux.HandleFunc("/mcp", s.mcpRoute)
 	// Everything else is the single-file app (index.html is served for "/").

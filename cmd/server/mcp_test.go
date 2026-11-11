@@ -478,6 +478,43 @@ func TestMCPDiaryAddUpdateRemove(t *testing.T) {
 	}
 }
 
+func TestMCPDiaryMeals(t *testing.T) {
+	srv := newTestServer(t)
+	mcpCall(t, srv, "add_food", map[string]any{"name": "Chicken", "kcal": 110, "p": 23, "g": 2, "c": 0})
+	added := mcpCall(t, srv, "add_diary_item", map[string]any{"date": "2026-11-11", "food": "Chicken", "grams": 100, "meal": "breakfast"})
+	item := added["item"].(map[string]any)
+	id := item["id"].(string)
+	if item["meal"] != "breakfast" {
+		t.Fatalf("meal not saved: %v", item)
+	}
+	updated := mcpCall(t, srv, "update_diary_item", map[string]any{"date": "2026-11-11", "item": id, "grams": 200})
+	if updated["item"].(map[string]any)["meal"] != "breakfast" {
+		t.Fatal("portion edit lost meal")
+	}
+	moved := mcpCall(t, srv, "update_diary_item", map[string]any{"date": "2026-11-11", "item": id, "meal": "dinner"})
+	item = moved["item"].(map[string]any)
+	if item["meal"] != "dinner" || item["kcal"] != float64(220) || item["grams"] != float64(200) {
+		t.Fatalf("meal-only edit changed nutrition: %v", item)
+	}
+	for _, value := range []any{"brunch", "", nil, 123} {
+		msg := mcpToolError(t, srv, "update_diary_item", map[string]any{"date": "2026-11-11", "item": id, "meal": value})
+		if !strings.Contains(msg, "meal must be") {
+			t.Fatalf("invalid meal accepted: %v", value)
+		}
+	}
+	if msg := mcpToolError(t, srv, "update_diary_item", map[string]any{"date": "2026-11-11", "item": id}); !strings.Contains(msg, "grams and/or meal") {
+		t.Fatalf("empty edit accepted: %s", msg)
+	}
+	day := mcpCall(t, srv, "list_diary", map[string]any{"date": "2026-11-11"})
+	if day["items"].([]any)[0].(map[string]any)["meal"] != "dinner" {
+		t.Fatal("meal did not persist")
+	}
+	legacy := mcpCall(t, srv, "add_diary_item", map[string]any{"date": "2026-11-11", "food": "Chicken", "grams": 50})
+	if legacy["item"].(map[string]any)["meal"] != nil {
+		t.Fatal("omitted meal should remain unassigned")
+	}
+}
+
 func TestMCPListDiary(t *testing.T) {
 	srv := newTestServer(t)
 	mcpCall(t, srv, "add_food", map[string]any{"name": "Riso", "p": 7, "g": 1, "c": 78})

@@ -1,0 +1,21 @@
+{
+  "rows": 1000,
+  "firstImport": {
+    "added": 1000,
+    "rejected": 0,
+    "warnings": 0
+  },
+  "repeatImport": {
+    "added": 0,
+    "updated": 0,
+    "skipped": 1000
+  },
+  "sourceNumericChecks": {
+    "referenceFoods": 407,
+    "manufacturerFoods": 593
+  },
+  "blankMacroFields": 70,
+  "unicodeAndAliasSearch": "passed",
+  "portionScaling": "passed",
+  "sha256": "998167dc299eb8e092bc7bcb559b0232ebe58669d99a8c60052ec5d1d64227e4"
+}

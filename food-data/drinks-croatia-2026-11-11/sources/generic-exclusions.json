@@ -1,0 +1,22 @@
+[
+  {
+    "code": "18004",
+    "name": "Coffee, non instant no added sugars, ready-to-drink",
+    "reason": "already in food CSV"
+  },
+  {
+    "code": "18020",
+    "name": "Tea, brewed, no added sugars",
+    "reason": "already in food CSV"
+  },
+  {
+    "code": "18151",
+    "name": "Coffee with milk or white coffee or cappuccino, instant or non instant coffee, no added sugars, ready-to-drink",
+    "reason": "already in food CSV"
+  },
+  {
+    "code": "1024",
+    "name": "Apple brandy, Calvados type",
+    "reason": "no numeric reference calories"
+  }
+]

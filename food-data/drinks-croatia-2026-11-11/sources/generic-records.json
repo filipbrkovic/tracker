@@ -1,0 +1,3773 @@
+[
+  {
+    "code": "18045",
+    "name": "Mineral still water, bottled (average)",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": 0.025,
+    "p": 0,
+    "g": 0,
+    "c": 0.0062,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Negazirana mineralna voda"
+    ],
+    "cat": "drink,water",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18045; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18046",
+    "name": "Mineral sparkling water, bottled (average)",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": 0.018,
+    "p": 0,
+    "g": 0,
+    "c": 0.0046,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Gazirana mineralna voda"
+    ],
+    "cat": "drink,water",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18046; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18066",
+    "name": "Water, municipal",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": 0,
+    "p": 0,
+    "g": 0,
+    "c": 0,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Voda iz slavine"
+    ],
+    "cat": "drink,water",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18066; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18430",
+    "name": "Spring water, bottled",
+    "group": [
+      "06",
+      "0601",
+      "000000",
+      "eaux et autres\nboissons",
+      "eaux",
+      "-"
+    ],
+    "kcal": 0,
+    "p": 0,
+    "g": 0,
+    "c": 0,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Izvorska voda"
+    ],
+    "cat": "drink,water",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18430; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2000",
+    "name": "Pineapple juice, from concentrate",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 52.3,
+    "p": 0.41,
+    "g": 0.096,
+    "c": 11.9,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od ananasa iz koncentrata"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2000; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2002",
+    "name": "Multifruit juice, pure juice, multivitamin",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 48.4,
+    "p": 0.48,
+    "g": 0.1,
+    "c": 11.3,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Multivitaminski voćni sok"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2002; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2006",
+    "name": "Carrot juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 29.4,
+    "p": 0.4,
+    "g": 0.1,
+    "c": 6.55,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od mrkve"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2006; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2007",
+    "name": "Lemon juice, homemade",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 28.6,
+    "p": 0.35,
+    "g": 0.24,
+    "c": 2.52,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Domaći limunov sok"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2007; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2012",
+    "name": "Orange juice, from concentrate",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 45.6,
+    "p": 0.63,
+    "g": 0.13,
+    "c": 9.59,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od naranče iz koncentrata"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2012; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2013",
+    "name": "Orange juice, fresh",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 44.8,
+    "p": 0.7,
+    "g": 0.2,
+    "c": 9.19,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Svježe cijeđeni sok od naranče"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2013; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2014",
+    "name": "Apple juice, from concentrate",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 48.5,
+    "p": 0.24,
+    "g": 0.098,
+    "c": 11.3,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od jabuke iz koncentrata"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2014; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2015",
+    "name": "Grapefruit juice, from concentrate",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 40.9,
+    "p": 0.52,
+    "g": 0.1,
+    "c": 8.41,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od grejpa iz koncentrata"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2015; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2016",
+    "name": "Grape juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 69.2,
+    "p": 0.25,
+    "g": 0.057,
+    "c": 16.3,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od grožđa"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2016; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2017",
+    "name": "Pomegranate juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 54,
+    "p": 0.15,
+    "g": 0.29,
+    "c": 12.7,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od nara"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2017; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2018",
+    "name": "Prune juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 77.4,
+    "p": 0.37,
+    "g": 0.039,
+    "c": 18.7,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od suhih šljiva"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2018; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2019",
+    "name": "Grape juice, from concentrate",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 67.1,
+    "p": 0.31,
+    "g": 0.11,
+    "c": 16,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od grožđa iz koncentrata"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2019; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2023",
+    "name": "Mango juice, fresh",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 38.8,
+    "p": 0.19,
+    "g": 0,
+    "c": 9.5,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Svježi sok od manga"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2023; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2024",
+    "name": "Passion fruit juice, fresh",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 61.7,
+    "p": 0.67,
+    "g": 0.18,
+    "c": 14.3,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Svježi sok od marakuje"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2024; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2025",
+    "name": "Grapefruit juice, fresh",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 43.7,
+    "p": 0.5,
+    "g": 0.1,
+    "c": 9.1,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Svježe cijeđeni sok od grejpa"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2025; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2026",
+    "name": "Tomato juice, pure juice, 3 g salt/L",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 23.2,
+    "p": 0.88,
+    "g": 0.17,
+    "c": 4.13,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od rajčice 3 g soli po litri"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2026; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2027",
+    "name": "Grapefruit juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 42.5,
+    "p": 0.49,
+    "g": 0.083,
+    "c": 8.89,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Čisti sok od grejpa"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2027; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2028",
+    "name": "Lemon juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 29.4,
+    "p": 0.4,
+    "g": 0.29,
+    "c": 6.1,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Čisti sok od limuna"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2028; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2030",
+    "name": "Lime juice, fresh",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 9.87,
+    "p": 0.42,
+    "g": 0.07,
+    "c": 1.69,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Svježi sok od limete"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2030; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2031",
+    "name": "Lime juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 25.7,
+    "p": 0.25,
+    "g": 0.23,
+    "c": 1.69,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Čisti sok od limete"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2031; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2032",
+    "name": "Tomato juice, pure juice, 6 g salt/L",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 20.1,
+    "p": 0.88,
+    "g": 0.11,
+    "c": 3.32,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od rajčice 6 g soli po litri"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2032; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2033",
+    "name": "Multifruit juice, juice and fruit puree",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 49.1,
+    "p": 0.46,
+    "g": 0.11,
+    "c": 11.5,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Miješani voćni sok s pireom"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2033; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2034",
+    "name": "Mandarin or clementine juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 46.7,
+    "p": 0.66,
+    "g": 0.14,
+    "c": 10.4,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od mandarine ili klementine"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2034; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2035",
+    "name": "Multifruit juice, pure juice, standard",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 46.5,
+    "p": 0.25,
+    "g": null,
+    "c": 11.2,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Čisti miješani voćni sok"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2035; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,3\"}; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,3"
+    }
+  },
+  {
+    "code": "2036",
+    "name": "Multifruit juice, grape base, standard",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 54.6,
+    "p": 0.5,
+    "g": 0,
+    "c": 13,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Miješani voćni sok na bazi grožđa"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2036; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2038",
+    "name": "Multifruit juice, orange base, standard",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 46.8,
+    "p": 0.7,
+    "g": 0.16,
+    "c": 10.4,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Miješani voćni sok na bazi naranče"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2038; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2039",
+    "name": "Pomegranate juice, fresh",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 47.2,
+    "p": 0.2,
+    "g": 0,
+    "c": 11.6,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Svježi sok od nara"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2039; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2048",
+    "name": "Multifruit juice, apple base, standard",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 49.9,
+    "p": 0.33,
+    "g": null,
+    "c": 12.2,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Miješani voćni sok na bazi jabuke"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2048; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,1\"}; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,1"
+    }
+  },
+  {
+    "code": "2052",
+    "name": "Fruit and vegetable juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 42.8,
+    "p": 0.85,
+    "g": null,
+    "c": 9.5,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od voća i povrća"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2052; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"traces\"}; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "traces"
+    }
+  },
+  {
+    "code": "2053",
+    "name": "Tomato juice, pure juice (average)",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 21.7,
+    "p": 0.88,
+    "g": 0.14,
+    "c": 3.73,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od rajčice prosječni sastav"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2053; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2069",
+    "name": "Multifruit juice, from concentrate, standard",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 49.6,
+    "p": 0.52,
+    "g": 0.15,
+    "c": 11.2,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Miješani voćni sok iz koncentrata"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2069; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2070",
+    "name": "Orange juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 45.4,
+    "p": 0.61,
+    "g": 0.11,
+    "c": 9.61,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Čisti sok od naranče"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2070; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2071",
+    "name": "Multifruit juice, from concentrate, multivitamin",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 45.5,
+    "p": 0.29,
+    "g": 0.091,
+    "c": 10.8,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Multivitaminski voćni sok iz koncentrata"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2071; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2073",
+    "name": "Pineapple juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 52.9,
+    "p": 0.41,
+    "g": 0.074,
+    "c": 12.1,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Čisti sok od ananasa"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2073; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2074",
+    "name": "Apple juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 48.9,
+    "p": 0.17,
+    "g": 0.14,
+    "c": 11.4,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Čisti sok od jabuke"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2074; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2377",
+    "name": "Blood orange juice, pure juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 45.6,
+    "p": 0.63,
+    "g": 0.1,
+    "c": 10.2,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od crvene naranče"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2377; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2381",
+    "name": "Cranberry juice",
+    "group": [
+      "06",
+      "0602",
+      "060201",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "jus"
+    ],
+    "kcal": 49.8,
+    "p": null,
+    "g": 0.13,
+    "c": 12.1,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sok od brusnice"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2381; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"p\":\"-\"}; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "p": "-"
+    }
+  },
+  {
+    "code": "2009",
+    "name": "Multifruit nectar, apple base, standard",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 41.1,
+    "p": 0.28,
+    "g": null,
+    "c": 10,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Miješani nektar na bazi jabuke"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2009; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,1\"}; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,1"
+    }
+  },
+  {
+    "code": "2022",
+    "name": "Strawberry nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 47.5,
+    "p": 0.3,
+    "g": 0.1,
+    "c": 11.3,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Nektar od jagode"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2022; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2043",
+    "name": "Apricot nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 58.6,
+    "p": 0.21,
+    "g": 0.03,
+    "c": 13.7,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Nektar od marelice"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2043; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2054",
+    "name": "Pear nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 62.5,
+    "p": 0.19,
+    "g": 0.043,
+    "c": 14.8,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Nektar od kruške"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2054; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2060",
+    "name": "Multifruit nectar, multivitamin",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 47.2,
+    "p": 0.24,
+    "g": 0.1,
+    "c": 11.3,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Multivitaminski nektar"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2060; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2061",
+    "name": "Multifruit nectar, standard",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 49.7,
+    "p": 0.3,
+    "g": 0.089,
+    "c": 11.5,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Miješani voćni nektar"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2061; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2063",
+    "name": "Multifruit nectar, orange base, standard",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 50.2,
+    "p": 0.25,
+    "g": 0.1,
+    "c": 11.9,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Miješani nektar na bazi naranče"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2063; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2064",
+    "name": "Fruit nectar, with sweetener(s), reduced sugar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 23.2,
+    "p": 0.17,
+    "g": 0.037,
+    "c": 5.49,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Voćni nektar sa sladilima smanjen šećer"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2064; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2076",
+    "name": "Apple nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 44.9,
+    "p": 0.14,
+    "g": 0.075,
+    "c": 10.9,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Nektar od jabuke"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2076; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2365",
+    "name": "Passion fruit nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 68,
+    "p": 0.3,
+    "g": 0.1,
+    "c": 15.2,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Nektar od marakuje"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2365; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2366",
+    "name": "Banana nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 53.8,
+    "p": 0.23,
+    "g": 0.048,
+    "c": 12.8,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Nektar od banane"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2366; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2370",
+    "name": "Mango nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 52.1,
+    "p": 0.21,
+    "g": 0.08,
+    "c": 11.3,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Nektar od manga"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2370; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2371",
+    "name": "Peach nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 50.3,
+    "p": 0.22,
+    "g": 0.05,
+    "c": 12.1,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Nektar od breskve"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2371; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2374",
+    "name": "Pineapple nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 52.4,
+    "p": 0.1,
+    "g": 0,
+    "c": 13,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Nektar od ananasa"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2374; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "2375",
+    "name": "Orange nectar",
+    "group": [
+      "06",
+      "0602",
+      "060202",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "nectars"
+    ],
+    "kcal": 41.6,
+    "p": 0.32,
+    "g": 0.086,
+    "c": 9.19,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Nektar od naranče"
+    ],
+    "cat": "drink,juice",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2375; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18010",
+    "name": "Lemonade, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 33,
+    "p": 0.000022,
+    "g": 0.000021,
+    "c": 8.24,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Limunada sa šećerom"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18010; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18012",
+    "name": "Bottled water, flavoured, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 16.2,
+    "p": 0.00046,
+    "g": null,
+    "c": 4.05,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Voda s okusom sa šećerom"
+    ],
+    "cat": "drink,water",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18012; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"traces\"}; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "traces"
+    }
+  },
+  {
+    "code": "18013",
+    "name": "Tonic drink, no added sugars, with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 0.2,
+    "p": 0.00002,
+    "g": 0.00002,
+    "c": 0.058,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Tonic bez dodanog šećera sa sladilima"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18013; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18014",
+    "name": "Tonic drink, with sugar(s) and sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 22.2,
+    "p": 0.000071,
+    "g": 0.000063,
+    "c": 5.54,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Tonic sa šećerom i sladilima"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18014; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18015",
+    "name": "Still soft drink with tea extract, with sugar(s) and sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 17.1,
+    "p": 0.027,
+    "g": 0.022,
+    "c": 4.25,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Ledeni čaj sa šećerom i sladilima"
+    ],
+    "cat": "drink,iced-tea",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18015; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18016",
+    "name": "Lemonade, with sugar(s) and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 8,
+    "p": 0.00005,
+    "g": 0.0001,
+    "c": 2,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Limunada sa šećerom i sladilima"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18016; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18018",
+    "name": "Cola, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 40.1,
+    "p": 0.000026,
+    "g": 0.000023,
+    "c": 10,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Cola sa šećerom"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18018; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18025",
+    "name": "Kombucha, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 6.61,
+    "p": 0.25,
+    "g": null,
+    "c": 1.45,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Kombucha"
+    ],
+    "cat": "drink,fermented-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18025; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,3\"}; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,3"
+    }
+  },
+  {
+    "code": "18028",
+    "name": "Bottled water, flavoured, no added sugars and no sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 0.096,
+    "p": 0.000026,
+    "g": 0.000026,
+    "c": 0.026,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Voda s okusom bez šećera i sladila"
+    ],
+    "cat": "drink,water",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18028; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18030",
+    "name": "Bottled water, flavoured, no added sugars and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 0.0017,
+    "p": 0.0001,
+    "g": 0.0001,
+    "c": 0.0001,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Voda s okusom bez dodanog šećera sa sladilima"
+    ],
+    "cat": "drink,water",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18030; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18035",
+    "name": "Lemonade, no added sugars, with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 0.48,
+    "p": 0.000033,
+    "g": 0.000033,
+    "c": 0.12,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Limunada bez dodanog šećera sa sladilima"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18035; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18037",
+    "name": "Cola, with sugar(s) and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 24.3,
+    "p": 0.000025,
+    "g": 0.000025,
+    "c": 6.07,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Cola sa šećerom i sladilima"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18037; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18060",
+    "name": "Cola, without added sugars and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 1.04,
+    "p": 0.000019,
+    "g": 0.00002,
+    "c": 0.25,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Cola bez dodanog šećera sa sladilima"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18060; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18064",
+    "name": "Still soft drink with tea extract, flavoured, reduced sugar",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 14.9,
+    "p": 0.00001,
+    "g": 0.000011,
+    "c": 3.75,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Ledeni čaj sa smanjenim šećerom"
+    ],
+    "cat": "drink,iced-tea",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18064; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18065",
+    "name": "Still soft drink with tea extract, flavoured, no added sugars and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 0.53,
+    "p": 0.000025,
+    "g": 0.000015,
+    "c": 0.22,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Ledeni čaj bez dodanog šećera sa sladilima"
+    ],
+    "cat": "drink,iced-tea",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18065; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18067",
+    "name": "Cola, with sugar(s) and without caffeine",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 40.9,
+    "p": 0.05,
+    "g": 0.05,
+    "c": 10.2,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Cola sa šećerom bez kofeina"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18067; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18068",
+    "name": "Cola, without added sugars, with sweetener(s) and no caffeine",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 0.058,
+    "p": 0.083,
+    "g": 0.083,
+    "c": 0.13,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Cola bez šećera i kofeina sa sladilima"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18068; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18075",
+    "name": "Still soft drink with tea extract, flavoured, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 23.2,
+    "p": 0.02,
+    "g": 0.0027,
+    "c": 5.78,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Ledeni čaj sa šećerom"
+    ],
+    "cat": "drink,iced-tea",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18075; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18306",
+    "name": "Aloe vera beverage, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 32.9,
+    "p": 0.094,
+    "g": 0,
+    "c": 8.11,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Napitak od aloe vere sa šećerom"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18306; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18316",
+    "name": "Water kefir or Tibicos, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 3.6,
+    "p": 0.1,
+    "g": null,
+    "c": 0.9,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Vodeni kefir tibicos"
+    ],
+    "cat": "drink,fermented-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18316; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,5\"}; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,5"
+    }
+  },
+  {
+    "code": "18344",
+    "name": "Tonic drink, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 33.1,
+    "p": null,
+    "g": null,
+    "c": 8.27,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Tonic sa šećerom"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18344; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"p\":\"traces\",\"g\":\"traces\"}; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "p": "traces",
+      "g": "traces"
+    }
+  },
+  {
+    "code": "18348",
+    "name": "Sports drink, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 21.7,
+    "p": 0.000013,
+    "g": 0.000013,
+    "c": 5.41,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sportski napitak sa šećerom"
+    ],
+    "cat": "drink,sports-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18348; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18352",
+    "name": "Energy drink, with sugar(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 40.9,
+    "p": 0.095,
+    "g": null,
+    "c": 10.2,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Energetski napitak sa šećerom"
+    ],
+    "cat": "drink,energy-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18352; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"traces\"}; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "traces"
+    }
+  },
+  {
+    "code": "18353",
+    "name": "Energy drink, no added sugar(s) and with sweetener(s), fortified with vitamins",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 8.57,
+    "p": 0.11,
+    "g": 0.0091,
+    "c": 2.06,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Energetski napitak bez dodanog šećera sa sladilima"
+    ],
+    "cat": "drink,energy-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18353; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18354",
+    "name": "Energy drink, with sugar(s) and with sweetener(s)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 27.6,
+    "p": 0.042,
+    "g": 0.000046,
+    "c": 6.86,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Energetski napitak sa šećerom i sladilima"
+    ],
+    "cat": "drink,energy-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18354; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "19117",
+    "name": "Coffee flavoured milk beverage, with sugar(s), partially skimmed, not fortified",
+    "group": [
+      "06",
+      "0602",
+      "060204",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes\nlactées"
+    ],
+    "kcal": 70.3,
+    "p": 3.05,
+    "g": 2.33,
+    "c": 8.84,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Mliječni napitak s kavom i šećerom poluobrano mlijeko"
+    ],
+    "cat": "drink,milk-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 19117; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "19118",
+    "name": "Chocolate flavoured milk beverage, with sugar(s), partially skimmed, not fortified",
+    "group": [
+      "06",
+      "0602",
+      "060204",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes\nlactées"
+    ],
+    "kcal": 72.8,
+    "p": 3.42,
+    "g": 1.58,
+    "c": 11,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Čokoladno mlijeko sa šećerom poluobrano"
+    ],
+    "cat": "drink,milk-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 19118; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18011",
+    "name": "Coconut water",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": 11.8,
+    "p": 0.25,
+    "g": null,
+    "c": 3.33,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Kokosova voda"
+    ],
+    "cat": "drink,water",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18011; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,3\"}; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,3"
+    }
+  },
+  {
+    "code": "18107",
+    "name": "Almond drink, plain, no added sugars, not fortified, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": 35.8,
+    "p": 1.06,
+    "g": 3.2,
+    "c": 0.68,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Napitak od badema bez dodanog šećera neobogaćen"
+    ],
+    "cat": "drink,plant-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18107; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18110",
+    "name": "Almond drink, with sugar(s), fortified with calcium, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": 43.9,
+    "p": 0.69,
+    "g": 2.8,
+    "c": 3.96,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Napitak od badema sa šećerom i dodanim kalcijem"
+    ],
+    "cat": "drink,plant-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18110; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18899",
+    "name": "Oat drink, plain, no added sugar, not fortified, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": 41,
+    "p": 0.25,
+    "g": 1.1,
+    "c": 7.78,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Zobeni napitak bez dodanog šećera neobogaćen"
+    ],
+    "cat": "drink,plant-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18899; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18900",
+    "name": "Soy drink, plain, not fortified, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": 42.4,
+    "p": 3.5,
+    "g": 2.1,
+    "c": 1.87,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sojin napitak neobogaćen"
+    ],
+    "cat": "drink,plant-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18900; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18901",
+    "name": "Soy drink, plain, fortified with calcium, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": 44.2,
+    "p": 3.75,
+    "g": 2.05,
+    "c": 2.18,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sojin napitak s dodanim kalcijem"
+    ],
+    "cat": "drink,plant-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18901; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18902",
+    "name": "Soy drink, flavoured, with sugar(s), not fortified, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": 61.9,
+    "p": 3.38,
+    "g": 1.8,
+    "c": 7.54,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sojin napitak s okusom i šećerom neobogaćen"
+    ],
+    "cat": "drink,plant-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18902; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18903",
+    "name": "Soy drink, flavoured, with sugar(s), fortified in calcium, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": 43.2,
+    "p": 3.3,
+    "g": 1.8,
+    "c": 2.89,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sojin napitak s okusom šećerom i kalcijem"
+    ],
+    "cat": "drink,plant-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18903; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18904",
+    "name": "Rice drink, plain, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": 52.2,
+    "p": 0.25,
+    "g": 1,
+    "c": 10.8,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Rižin napitak"
+    ],
+    "cat": "drink,plant-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18904; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18907",
+    "name": "Coconut drink, plain, prepacked",
+    "group": [
+      "06",
+      "0602",
+      "060205",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons végétales"
+    ],
+    "kcal": 29.9,
+    "p": 0.25,
+    "g": 2.1,
+    "c": 2.75,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Kokosov napitak"
+    ],
+    "cat": "drink,plant-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18907; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18022",
+    "name": "Infusion, brewed, no added sugars",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": 0.8,
+    "p": 0,
+    "g": 0,
+    "c": 0.2,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Biljni čaj bez šećera"
+    ],
+    "cat": "drink,coffee-tea",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18022; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18070",
+    "name": "Decaffeinated non instant coffee, no added sugars, ready-to-drink",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": 4.42,
+    "p": 0.1,
+    "g": 0.18,
+    "c": 0.6,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Kuhana kava bez kofeina i šećera"
+    ],
+    "cat": "drink,coffee-tea",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18070; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18071",
+    "name": "Espresso coffee non instant coffee, no added sugars, ready-to-drink",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": 6.54,
+    "p": 0.25,
+    "g": 0.2,
+    "c": 1.16,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Espresso bez šećera"
+    ],
+    "cat": "drink,coffee-tea",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18071; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18072",
+    "name": "Decaffeinated instant coffee, no added sugars, ready-to-drink",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": 2.1,
+    "p": 0.12,
+    "g": 0.002,
+    "c": 0.4,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Pripremljena instant kava bez kofeina i šećera"
+    ],
+    "cat": "drink,coffee-tea",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18072; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18073",
+    "name": "Instant coffee, no added sugars, ready-to-drink",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": 1.64,
+    "p": 0.1,
+    "g": 0.004,
+    "c": 0.3,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Pripremljena instant kava bez šećera"
+    ],
+    "cat": "drink,coffee-tea",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18073; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18104",
+    "name": "Instant cocoa or chocolate beverage, with sugar(s), ready-to-drink (reconstituted with standard semi-skimmed milk)",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": 65.9,
+    "p": 3.78,
+    "g": 1.42,
+    "c": 9.5,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Pripremljeni kakao s poluobranim mlijekom i šećerom"
+    ],
+    "cat": "drink,milk-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18104; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18154",
+    "name": "Black tea, brewed, no added sugars",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": 1.26,
+    "p": 0,
+    "g": 0.007,
+    "c": 0.3,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Crni čaj bez šećera"
+    ],
+    "cat": "drink,coffee-tea",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18154; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18155",
+    "name": "Green tea, brewed, no added sugars",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": 5.1,
+    "p": 0,
+    "g": 0,
+    "c": 1.09,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Zeleni čaj bez šećera"
+    ],
+    "cat": "drink,coffee-tea",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18155; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18162",
+    "name": "Mix of chicory and coffee, instant, no added sugars, ready-to-drink (reconstituted with water)",
+    "group": [
+      "06",
+      "0602",
+      "060206",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "café, thé, cacao etc.\nprêts à consommer"
+    ],
+    "kcal": 27.8,
+    "p": 0.56,
+    "g": null,
+    "c": 6.06,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Pripremljena instant mješavina cikorije i kave s vodom bez šećera"
+    ],
+    "cat": "drink,coffee-tea",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18162; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,3\"}; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,3"
+    }
+  },
+  {
+    "code": "1006",
+    "name": "Wine, sweet",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": 148,
+    "p": 0.2,
+    "g": 0,
+    "c": 9.96,
+    "alcohol": 15.3,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Slatko vino"
+    ],
+    "cat": "drink,wine",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1006; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 15.3 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "5201",
+    "name": "Wine, white, sparkling",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": 72.3,
+    "p": 0.1,
+    "g": 0,
+    "c": 1.78,
+    "alcohol": 9.26,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Bijelo pjenušavo vino"
+    ],
+    "cat": "drink,wine",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5201; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 9.26 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "5207",
+    "name": "Champagne",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": 76.1,
+    "p": 0.3,
+    "g": 0,
+    "c": 1.4,
+    "alcohol": 9.9,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Šampanjac"
+    ],
+    "cat": "drink,wine",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5207; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 9.9 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "5214",
+    "name": "Wine, red",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": 75.7,
+    "p": 0.16,
+    "g": null,
+    "c": 0,
+    "alcohol": 10.8,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Crno vino"
+    ],
+    "cat": "drink,wine",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5214; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,5\"}; ethanol 10.8 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,5"
+    }
+  },
+  {
+    "code": "5215",
+    "name": "Wine, white, dry",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": 55.3,
+    "p": 0.25,
+    "g": 0,
+    "c": 0.17,
+    "alcohol": 7.75,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Bijelo suho vino"
+    ],
+    "cat": "drink,wine",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5215; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 7.75 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "5216",
+    "name": "Wine, rose",
+    "group": [
+      "06",
+      "0603",
+      "060301",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "vins"
+    ],
+    "kcal": 69.2,
+    "p": 0.15,
+    "g": 0,
+    "c": 1.4,
+    "alcohol": 9,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Rose vino ružičasto vino"
+    ],
+    "cat": "drink,wine",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5216; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 9 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "5000",
+    "name": "Beer, dark",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": 40.5,
+    "p": 0.43,
+    "g": null,
+    "c": 4.1,
+    "alcohol": 3.19,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Tamno pivo"
+    ],
+    "cat": "drink,beer",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5000; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"traces\"}; ethanol 3.19 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "traces"
+    }
+  },
+  {
+    "code": "5001",
+    "name": "Beer, regular (4-5° alcohol)",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": 39,
+    "p": 0.39,
+    "g": 0,
+    "c": 3.12,
+    "alcohol": 3.57,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Pivo 4 do 5 posto alkohola"
+    ],
+    "cat": "drink,beer",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5001; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 3.57 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "5002",
+    "name": "Beer, strong (>8° alcohol)",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": 62.5,
+    "p": 0.51,
+    "g": 0,
+    "c": 4.6,
+    "alcohol": 6,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Jako pivo iznad 8 posto alkohola"
+    ],
+    "cat": "drink,beer",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5002; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 6 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "5006",
+    "name": "Cider, dry",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": 35.9,
+    "p": 0,
+    "g": 0,
+    "c": 2.62,
+    "alcohol": 3.72,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Suhi cider jabukovača"
+    ],
+    "cat": "drink,cider",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5006; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 3.72 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "5007",
+    "name": "Cider, sweet",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": 38.9,
+    "p": 0.25,
+    "g": null,
+    "c": 6.4,
+    "alcohol": 1.91,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Slatki cider jabukovača"
+    ],
+    "cat": "drink,cider",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5007; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,6\"}; ethanol 1.91 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,6"
+    }
+  },
+  {
+    "code": "5008",
+    "name": "Beer, low alcohol-content (3° alcohol)",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": 35.3,
+    "p": 0.31,
+    "g": null,
+    "c": 4.62,
+    "alcohol": 2.23,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Pivo s nižim alkoholom 3 posto"
+    ],
+    "cat": "drink,beer",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5008; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,05\"}; ethanol 2.23 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,05"
+    }
+  },
+  {
+    "code": "5009",
+    "name": "Beer, white",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": 60.9,
+    "p": 0.5,
+    "g": null,
+    "c": 7.55,
+    "alcohol": 4.09,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Bijelo pšenično pivo"
+    ],
+    "cat": "drink,beer",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5009; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,5\"}; ethanol 4.09 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,5"
+    }
+  },
+  {
+    "code": "5010",
+    "name": "Beer, special (5-6° alcohol)",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": 56,
+    "p": 0.48,
+    "g": null,
+    "c": 4.55,
+    "alcohol": 5.13,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Specijalno pivo 5 do 6 posto alkohola"
+    ],
+    "cat": "drink,beer",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5010; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,05\"}; ethanol 5.13 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,05"
+    }
+  },
+  {
+    "code": "5011",
+    "name": "Beer, from an abbey or brewery (variable alcohol content)",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": 47.1,
+    "p": 0.51,
+    "g": 0,
+    "c": 3.2,
+    "alcohol": 4.6,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Samostansko ili pivovarsko pivo promjenjiv alkohol"
+    ],
+    "cat": "drink,beer",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5011; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 4.6 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "5021",
+    "name": "Cider, half-dry",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": 44.3,
+    "p": 0.25,
+    "g": null,
+    "c": 4.4,
+    "alcohol": 3.71,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Polusuhi cider jabukovača"
+    ],
+    "cat": "drink,cider",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5021; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,6\"}; ethanol 3.71 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,6"
+    }
+  },
+  {
+    "code": "5022",
+    "name": "Cider, fruit-flavoured",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": 38.4,
+    "p": 0.25,
+    "g": null,
+    "c": 7.07,
+    "alcohol": 1.36,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Cider s voćnim okusom"
+    ],
+    "cat": "drink,cider",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5022; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,6\"}; ethanol 1.36 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,6"
+    }
+  },
+  {
+    "code": "5029",
+    "name": "Beer, alcohol-free, sweetened, flavoured or with fruit juice",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": 30.6,
+    "p": 0.2,
+    "g": 0.041,
+    "c": 7.36,
+    "alcohol": null,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Bezalkoholno pivo zaslađeno s okusom ili voćnim sokom"
+    ],
+    "cat": "drink,nonalcoholic-beer",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5029; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "5030",
+    "name": "Beer, alcohol-free (<1,2° alcohol), without added sugars, flavoured or unflavoured",
+    "group": [
+      "06",
+      "0603",
+      "060302",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "bières et cidres"
+    ],
+    "kcal": 29.4,
+    "p": 0.2,
+    "g": 0.053,
+    "c": 6.08,
+    "alcohol": 0.62,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Bezalkoholno pivo ispod 1.2 posto bez dodanog šećera"
+    ],
+    "cat": "drink,nonalcoholic-beer",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5030; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 0.62 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "1001",
+    "name": "Fruit brandy or eau-de-vie",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": 233,
+    "p": 0,
+    "g": 0,
+    "c": 0.63,
+    "alcohol": 32.9,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Voćna rakija referentni prosjek"
+    ],
+    "cat": "drink,spirits",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1001; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 32.9 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "1002",
+    "name": "Gin",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": 265,
+    "p": 0,
+    "g": 0,
+    "c": 0,
+    "alcohol": 37.9,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Gin džin"
+    ],
+    "cat": "drink,spirits",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1002; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 37.9 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "1003",
+    "name": "Liqueur",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": 225,
+    "p": 0.1,
+    "g": 0.23,
+    "c": 25.4,
+    "alcohol": 17.3,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Liker referentni prosjek"
+    ],
+    "cat": "drink,spirits",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1003; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 17.3 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "1004",
+    "name": "Rum",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": 234,
+    "p": 0,
+    "g": 0,
+    "c": 0,
+    "alcohol": 33.4,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Rum"
+    ],
+    "cat": "drink,spirits",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1004; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 33.4 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "1005",
+    "name": "Whisky",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": 252,
+    "p": 0,
+    "g": 0,
+    "c": 0.096,
+    "alcohol": 36,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Whisky viski"
+    ],
+    "cat": "drink,spirits",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1005; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 36 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "1007",
+    "name": "Wine-based aperitif",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": 137,
+    "p": 0.054,
+    "g": 0,
+    "c": 11.3,
+    "alcohol": 13.1,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Aperitiv na bazi vina"
+    ],
+    "cat": "drink,spirits",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1007; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 13.1 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "1008",
+    "name": "Vodka",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": 250,
+    "p": 0,
+    "g": 0,
+    "c": 0,
+    "alcohol": 35.7,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Vodka votka"
+    ],
+    "cat": "drink,spirits",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1008; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 35.7 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "1021",
+    "name": "Blackcurrant liqueur",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": 245,
+    "p": 0,
+    "g": 0,
+    "c": 41,
+    "alcohol": 11.6,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Liker od crnog ribiza"
+    ],
+    "cat": "drink,spirits",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1021; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 11.6 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "1023",
+    "name": "Brandy, Armagnac or Cognac type",
+    "group": [
+      "06",
+      "0603",
+      "060303",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "liqueurs et alcools"
+    ],
+    "kcal": 222,
+    "p": 0,
+    "g": 0,
+    "c": 0.76,
+    "alcohol": 31.3,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Brandy vinjak konjak"
+    ],
+    "cat": "drink,spirits",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1023; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 31.3 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "1012",
+    "name": "Cocktail, rum-based",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": 121,
+    "p": 0,
+    "g": 2.19,
+    "c": 7.74,
+    "alcohol": 9.9,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Koktel na bazi ruma referentni prosjek"
+    ],
+    "cat": "drink,cocktail",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1012; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 9.9 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "1013",
+    "name": "Cocktail, whisky-based",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": 166,
+    "p": null,
+    "g": 0.02,
+    "c": 15.8,
+    "alcohol": 14.6,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Koktel na bazi viskija referentni prosjek"
+    ],
+    "cat": "drink,cocktail",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1013; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"p\":\"traces\"}; ethanol 14.6 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "p": "traces"
+    }
+  },
+  {
+    "code": "1017",
+    "name": "Sangria",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": 88.7,
+    "p": 0,
+    "g": 0.05,
+    "c": 11,
+    "alcohol": 6.32,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Sangria sangrija"
+    ],
+    "cat": "drink,cocktail",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1017; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 6.32 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "1022",
+    "name": "Cocktail, punch type, 16% alcohol, prepacked",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": 159,
+    "p": 0.6,
+    "g": null,
+    "c": 17.8,
+    "alcohol": 12.1,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Gotovi punč koktel 16 posto alkohola"
+    ],
+    "cat": "drink,cocktail",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 1022; reference average, not a Croatian brand label; per 100g (NOT 100ml); non-numeric macros {\"g\":\"< 0,6\"}; ethanol 12.1 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {
+      "g": "< 0,6"
+    }
+  },
+  {
+    "code": "2008",
+    "name": "Cocktail, alcohol-free (juices and syrup-based cocktail)",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": 46,
+    "p": 0.42,
+    "g": 0,
+    "c": 10.9,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Bezalkoholni koktel sa sokom i sirupom"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 2008; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "18007",
+    "name": "Cocktail, alcohol-free (juices based cocktail without syrup)",
+    "group": [
+      "06",
+      "0602",
+      "060203",
+      "eaux et autres\nboissons",
+      "boissons sans\nalcool",
+      "boissons\nrafraîchissantes sans\nalcool"
+    ],
+    "kcal": 42.8,
+    "p": 0.033,
+    "g": 0.035,
+    "c": 10.7,
+    "alcohol": 0,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Bezalkoholni koktel od sokova bez sirupa"
+    ],
+    "cat": "drink,soft-drink",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 18007; reference average, not a Croatian brand label; per 100g (NOT 100ml); https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "5004",
+    "name": "Shandy (beer + lemonade)",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": 39,
+    "p": 0,
+    "g": 0,
+    "c": 6.33,
+    "alcohol": 1.95,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Radler mješavina piva i limunade"
+    ],
+    "cat": "drink,beer",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5004; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 1.95 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  },
+  {
+    "code": "5005",
+    "name": "Shandy, prepacked (<1° alcohol), flavoured or plain",
+    "group": [
+      "06",
+      "0603",
+      "060304",
+      "eaux et autres\nboissons",
+      "boisson alcoolisées",
+      "cocktails"
+    ],
+    "kcal": 32,
+    "p": 0.0046,
+    "g": 0.021,
+    "c": 7.11,
+    "alcohol": 0.5,
+    "brand": "ANSES Ciqual 2025",
+    "aliases": [
+      "Gotovi radler ispod 1 posto alkohola"
+    ],
+    "cat": "drink,nonalcoholic-beer",
+    "basis": "100g",
+    "source": "ANSES Ciqual 2025; code 5005; reference average, not a Croatian brand label; per 100g (NOT 100ml); ethanol 0.5 g/100g; published energy includes alcohol; https://doi.org/10.57745/RDMHWY",
+    "sourceType": "reference_average",
+    "sourceUrl": "https://doi.org/10.57745/RDMHWY",
+    "bounds": {}
+  }
+]

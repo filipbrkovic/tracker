@@ -1,0 +1,2 @@
+# Preserve audited CSV bytes and checksums across machines.
+food-data/**/*.csv -text whitespace=cr-at-eol

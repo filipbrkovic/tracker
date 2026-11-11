@@ -117,9 +117,9 @@ test('offline UI additions survive MCP writes, edits and deletes on the same day
   const base = await withServer(t);
   const date = '2026-11-10';
   const food = await mcpCall(base, 'add_food', {name:'Svježi sir',kcal:100,p:10,g:4,c:6});
-  const logged = await mcpCall(base, 'add_diary_item', {date,food:food.food.id,grams:100});
+  const logged = await mcpCall(base, 'add_diary_item', {date,food:food.food.id,grams:100,meal:'breakfast'});
   const offline = {collection:'diary',id:date,updated:100,data:{type:'training',items:[
-    {id:'offline-item',name:'Manual meal',grams:1,unit:'serving',kcal:250,p:null,g:null,c:null}
+    {id:'offline-item',name:'Manual meal',meal:'dinner',grams:1,unit:'serving',kcal:250,p:null,g:null,c:null}
   ],itemUpdated:{'offline-item':100}}};
   const push = async record => {
     const response = await fetch(base+'/api/sync/default',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({records:[record]})});
@@ -130,6 +130,8 @@ test('offline UI additions survive MCP writes, edits and deletes on the same day
   assert.equal(saved.items.length,2);
   assert.equal(saved.totals.kcal,350);
   assert.equal(saved.totals.p,null);
+  assert.equal(saved.items.find(i=>i.id==='offline-item').meal,'dinner');
+  await mcpCall(base,'update_diary_item',{date,item:logged.item.id,meal:'lunch'});
   await mcpCall(base,'add_food',{name:'Svježi sir',kcal:200,p:20,g:8,c:12});
   await mcpCall(base,'update_diary_item',{date,item:logged.item.id,grams:200});
   saved = await mcpCall(base,'list_diary',{date});
@@ -139,6 +141,7 @@ test('offline UI additions survive MCP writes, edits and deletes on the same day
   const delta = await (await fetch(base+'/api/sync/default?since=0')).json();
   const browser = core.syncDeltaState(delta);
   assert.equal(browser.diary[date].items.length,1,'stale offline replay cannot resurrect deletion');
+  assert.equal(browser.diary[date].items[0].meal,'lunch','meal assignment survives sync and portion edits');
 });
 
 test('un alimento e un esercizio aggiunti via MCP arrivano al dispositivo', async (t) => {

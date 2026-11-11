@@ -21,7 +21,7 @@ test-go:
 
 ## test-js: run the JS sync/merge tests (needs node)
 test-js:
-	node --test tests/*.test.mjs
+	node --test tests/*.test.mjs cloudflare/food-search/worker.test.mjs
 
 ## vet: static analysis
 vet:

@@ -1,0 +1,2206 @@
+{
+  "summary": {
+    "created": "2026-11-11",
+    "count": 1000,
+    "referenceFoods": 407,
+    "manufacturerFoods": 593,
+    "boundedReferenceFoods": 70,
+    "manufacturers": {
+      "kras": 113,
+      "podravka": 454,
+      "vindija": 26
+    },
+    "categories": {
+      "baking": 42,
+      "bread": 15,
+      "dairy": 78,
+      "drink": 3,
+      "egg": 7,
+      "fat": 11,
+      "fish": 67,
+      "fruit": 37,
+      "fruit-preserves": 18,
+      "grain": 98,
+      "herb": 6,
+      "legume": 17,
+      "meat": 71,
+      "meat-products": 18,
+      "mushroom": 6,
+      "nuts-seeds": 22,
+      "pantry": 123,
+      "plant-protein": 2,
+      "prepared-meals": 16,
+      "seafood": 10,
+      "seasoning": 71,
+      "soup": 22,
+      "spice": 1,
+      "starch": 6,
+      "sweetener": 3,
+      "sweets-snacks": 132,
+      "vegetable": 64,
+      "vegetable-preserves": 34
+    },
+    "basis": {
+      "100g": 987,
+      "100ml": 13
+    },
+    "exclusions": {
+      "liquid panel marked 100g on website; excluded pending package verification": 5,
+      "missing, bounded or unparsed energy/macros": 141,
+      "dry-versus-prepared basis ambiguous in manufacturer panel": 31,
+      "large label energy/macronutrient discrepancy; not corrected or inferred": 12,
+      "kJ/kcal disagreement above rounding tolerance": 8,
+      "implausible nutrition": 2,
+      "no product-specific nutrition table": 93,
+      "HTTP 404": 1,
+      "conflicting manufacturer panels for same name and brand": 12,
+      "1000-row selection limit; balanced brand coverage": 53
+    },
+    "duplicatePages": 9
+  },
+  "exclusions": [
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/badem-biljni-napitak-2/",
+      "name": "Badem biljni napitak",
+      "reason": "liquid panel marked 100g on website; excluded pending package verification",
+      "values": {
+        "kcal": 24,
+        "p": 0.7,
+        "g": 2.2,
+        "c": 0.2
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/badem-biljni-napitak/",
+      "name": "Badem biljni napitak",
+      "reason": "liquid panel marked 100g on website; excluded pending package verification",
+      "values": {
+        "kcal": 24,
+        "p": 0.7,
+        "g": 2.2,
+        "c": 0.2
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bakin-caj/",
+      "name": "Bakin čaj",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bbq-umak-classic/",
+      "name": "BBQ umak Classic",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bbq-umak-jalapeno/",
+      "name": "BBQ umak Jalapeno",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bbq-umak-med/",
+      "name": "BBQ umak Med",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bbq-umak-spicy-hot/",
+      "name": "BBQ umak Spicy hot",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/begova-corba/",
+      "name": "Begova čorba",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bijeli-papar-mljeveni/",
+      "name": "Bijeli papar mljeveni",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bio-balance-vocno-zitni-snack/",
+      "name": "Bio Balance voćno-žitni snack",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bio-immuno-vocno-zitni-snack/",
+      "name": "Immuno voćno-žitni snack",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bio-power-vocni-snack/",
+      "name": "Power voćni snack",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bio-refresh-vocni-snack/",
+      "name": "Bio Refresh voćni snack",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bogata-juha-s-5-zitarica/",
+      "name": "Bogata juha s 5 žitarica",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 40,
+        "p": 1,
+        "g": 1.3,
+        "c": 5.6
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bogata-juha-s-jecmom-i-povrcem/",
+      "name": "Bogata juha s ječmom i povrćem",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 35,
+        "p": 1.3,
+        "g": 1,
+        "c": 4.8
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bogata-juha-s-lecom/",
+      "name": "Bogata juha s lećom",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 34,
+        "p": 1.5,
+        "g": 0.9,
+        "c": 4
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bogata-juha-s-vrganjima-i-heljdom/",
+      "name": "Bogata juha s vrganjima i heljdom",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 34,
+        "p": 1.1,
+        "g": 0.9,
+        "c": 4.8
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/borovnica/",
+      "name": "Borovnica",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bosiljak-usitnjeni/",
+      "name": "Bosiljak usitnjeni",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bronho-caj/",
+      "name": "Bronho čaj",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/brusnica/",
+      "name": "Brusnica",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/caj-beauty/",
+      "name": "Čaj beauty",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/caj-relax/",
+      "name": "Čaj relax",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/carobni-vinograd/",
+      "name": "Čarobni vinograd",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/cesnjak-granule/",
+      "name": "Češnjak granule",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/chili-i-sol/",
+      "name": "Chili i sol",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/chili-mljeveni/",
+      "name": "Chili mljeveni",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/ciciban/",
+      "name": "Ciciban",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/cimet-mljeveni/",
+      "name": "Cimet mljeveni",
+      "reason": "large label energy/macronutrient discrepancy; not corrected or inferred",
+      "values": {
+        "kcal": 247,
+        "p": 4,
+        "g": 1.3,
+        "c": 81
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/cimet-u-kori/",
+      "name": "Cimet u kori",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/crni-papar-mljeveni/",
+      "name": "Crni papar mljeveni",
+      "reason": "large label energy/macronutrient discrepancy; not corrected or inferred",
+      "values": {
+        "kcal": 255,
+        "p": 11,
+        "g": 3.3,
+        "c": 64
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/crni-papar-zrno/",
+      "name": "Crni papar zrno",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/crno-voce-vocni-namaz-100-iz-voca/",
+      "name": "Crno voće voćni namaz 100% iz voća",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/crveni-papar-zrno/",
+      "name": "Crveni papar zrno",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/curry/",
+      "name": "Curry",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/cvjetni-med/",
+      "name": "Cvjetni med",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/dimljena-paprika/",
+      "name": "Dimljena paprika",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/dinarski-tip-caja/",
+      "name": "Dinarski tip čaja",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/dolcela-perfetta-vanilija/",
+      "name": "Dolcela Perfetta Vanilija",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/domaca-marmelada-jagoda/",
+      "name": "Domaća marmelada jagoda",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/dumbir-mljeveni/",
+      "name": "Đumbir mljeveni",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/duvec/",
+      "name": "Đuveč",
+      "reason": "kJ/kcal disagreement above rounding tolerance",
+      "values": {
+        "kcal": 44,
+        "p": 1.1,
+        "g": 1,
+        "c": 4.4
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/fidelini-gnijezda-s-jajima/",
+      "name": "Fidelini gnijezda s jajima",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/fini-mini-goveda-juha/",
+      "name": "Fini-Mini goveđa juha",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 33,
+        "p": 0.9,
+        "g": 0.7,
+        "c": 5.5
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/fini-mini-kokosja-juha/",
+      "name": "Fini-Mini kokošja juha",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 33,
+        "p": 0.9,
+        "g": 0.7,
+        "c": 5.5
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/fini-mini-krem-juha-od-bundeve/",
+      "name": "Fini-Mini krem juha od bundeve",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 49,
+        "p": 1,
+        "g": 2.3,
+        "c": 5.5
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/fini-mini-krem-juha-od-gljiva/",
+      "name": "Fini-Mini krem juha od gljiva",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 45,
+        "p": 0.9,
+        "g": 2.4,
+        "c": 4.6
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/fini-mini-krem-juha-od-rajcice-s-mozzarellom/",
+      "name": "Fini-Mini krem juha od rajčice s mozzarellom",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 46,
+        "p": 1,
+        "g": 1.8,
+        "c": 6
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/fini-mini-krem-juha-od-spinata-i-sira/",
+      "name": "Fini-Mini krem juha od špinata i sira",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 52,
+        "p": 1.1,
+        "g": 2.9,
+        "c": 5
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/fini-mini-povrtna-juha/",
+      "name": "Fini-Mini povrtna juha",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 27,
+        "p": 0.8,
+        "g": 0.5,
+        "c": 4.5
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/focus-vocno-zitni-snack/",
+      "name": "Focus voćno-žitni snack",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/frutolino-bio-jabuka-jagoda-borovnica-kupina-pouch/",
+      "name": "Frutolino BIO jabuka, jagoda, borovnica & kupina pouch",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/frutolino-bio-jabuka-mango-i-breskva/",
+      "name": "Frutolino BIO jabuka, mango i breskva",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/frutolino-bio-jabuka-sljiva-banana-pouch/",
+      "name": "Frutolino BIO jabuka, šljiva & banana pouch",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/frutolino-bio-kruska-i-marelica/",
+      "name": "Frutolino BIO kruška i marelica",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/frutolino-bio-kruska-jabuka-i-komorac/",
+      "name": "Frutolino BIO kruška, jabuka i komorač",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/frutolino-crveno-voce-i-keks/",
+      "name": "Frutolino crveno voće i keks",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/frutolino-jabuka-banana-i-keks/",
+      "name": "Frutolino jabuka, banana i keks",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/frutolino-jabuka-kruska-i-banana/",
+      "name": "Frutolino jabuka, kruška i banana",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/frutolino-jabuka-mango-i-keks/",
+      "name": "Frutolino jabuka, mango i keks",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/frutolino-voce-s-pirom/",
+      "name": "Frutolino voće s pirom",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/frutolino-voce-sa-zobi/",
+      "name": "Frutolino voće sa zobi",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/goveda-kocka/",
+      "name": "Goveđa kocka",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/govedi-hase/",
+      "name": "Goveđi haše",
+      "reason": "kJ/kcal disagreement above rounding tolerance",
+      "values": {
+        "kcal": 135,
+        "p": 13,
+        "g": 6.6,
+        "c": 3.8
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/govedi-tekuci-temeljac/",
+      "name": "Goveđi tekući temeljac",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/govedi-temeljac-za-jela/",
+      "name": "Goveđi temeljac za jela",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 128,
+        "p": 4.3,
+        "g": 4.8,
+        "c": 14
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/grah-sareni/",
+      "name": "Grah šareni",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/grill-debrecinka-kobasica/",
+      "name": "Grill Debrecinka kobasica",
+      "reason": "implausible nutrition"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/hi-protein-mug-cake/",
+      "name": "Hi protein mug cake",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/imuno-caj/",
+      "name": "Imuno čaj",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 2,
+        "p": 0,
+        "g": 0,
+        "c": 0
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/indijski-caj/",
+      "name": "Indijski čaj",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/instant-kvasac/",
+      "name": "Instant kvasac",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/instant-zelatina/",
+      "name": "Instant želatina",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/jabuka-s-cimetom/",
+      "name": "Jabuka s cimetom",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/jadranske-sardine-s-limunom-2/",
+      "name": "Jadranske sardine s limunom",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/jadranske-sardine-s-rajcicom-2/",
+      "name": "Jadranske sardine s rajčicom",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/juha-od-rajcice-classic/",
+      "name": "Juha od rajčice classic",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 43,
+        "p": 0.9,
+        "g": 1.2,
+        "c": 7
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/juha-od-rajcice-i-lece/",
+      "name": "Juha od rajčice i leće",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 57,
+        "p": 2,
+        "g": 1.3,
+        "c": 9
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/juha-od-rajcice-pikant/",
+      "name": "Juha od rajčice pikant",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 44,
+        "p": 1,
+        "g": 1.2,
+        "c": 7.1
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/kajenski-papar/",
+      "name": "Kajenski papar",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/kamilica/",
+      "name": "Kamilica",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/kim/",
+      "name": "Kim",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/klincic-cijeli/",
+      "name": "Klinčić cijeli",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/kokosja-kocka/",
+      "name": "Kokošja kocka",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/kokosji-tekuci-temeljac/",
+      "name": "Kokošji tekući temeljac",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 5,
+        "p": 0,
+        "g": 0,
+        "c": 0
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/kokosji-temeljac-za-jela/",
+      "name": "Kokošji temeljac za jela",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 137,
+        "p": 6,
+        "g": 5.2,
+        "c": 14
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/kompot-ananas/",
+      "name": "Kompot ananas",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/kompot-breskva/",
+      "name": "Kompot breskva",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/kopar-usitnjeni/",
+      "name": "Kopar usitnjeni",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/korijander-zrno/",
+      "name": "Korijander zrno",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/kraljevska-kocka/",
+      "name": "Kraljevska kocka",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/krem-juha-grasak-s-mentom/",
+      "name": "Krem juha grašak s mentom",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 34,
+        "p": 1.4,
+        "g": 0.9,
+        "c": 4.5
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/krem-juha-od-brokule-2/",
+      "name": "Krem juha od brokule",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 35,
+        "p": 1.5,
+        "g": 1.2,
+        "c": 4.4
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/krem-juha-od-poriluka/",
+      "name": "Krem juha od poriluka",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 88,
+        "p": 1.6,
+        "g": 4.8,
+        "c": 9
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/krem-juha-od-sampinjona-2/",
+      "name": "Krem juha od šampinjona",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 41,
+        "p": 1.8,
+        "g": 1.5,
+        "c": 4.8
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/krem-juha-od-sparoga-2/",
+      "name": "Krem juha od šparoga",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 145,
+        "p": 1.1,
+        "g": 1.2,
+        "c": 4.6
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/krem-juha-od-vrganja/",
+      "name": "Krem juha od vrganja",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 30,
+        "p": 1,
+        "g": 1,
+        "c": 4.2
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/krem-pileca-juha/",
+      "name": "Krem pileća juha",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 31,
+        "p": 1.3,
+        "g": 1,
+        "c": 3.9
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/kviki-gric-pikant/",
+      "name": "Kviki gric pikant",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/kviki-stapici-s-kikirikijem/",
+      "name": "Kviki štapići s kikirikijem",
+      "reason": "implausible nutrition"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/limun-i-limeta/",
+      "name": "Limun i limeta",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/limunska-kiselina/",
+      "name": "Limunska kiselina",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/lino-choco-caramel-flakes/",
+      "name": "Lino Choco caramel flakes",
+      "reason": "kJ/kcal disagreement above rounding tolerance",
+      "values": {
+        "kcal": 374,
+        "p": 6.5,
+        "g": 2.5,
+        "c": 79
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/lino-jabuka-i-sljiva-s-grisom/",
+      "name": "Lino jabuka i šljiva s grisom",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/lino-lada-dark/",
+      "name": "Lino Lada Dark",
+      "reason": "kJ/kcal disagreement above rounding tolerance",
+      "values": {
+        "kcal": 512,
+        "p": 11,
+        "g": 32,
+        "c": 40
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/lino-lada-duo-160g/",
+      "name": "Lino Lada duo 160g",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/lino-lada-sladoled/",
+      "name": "Lino Lada sladoled",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/lino-mini-pillows-punjeni-sa-lino-ladom-milk/",
+      "name": "Lino mini pillows punjeni sa Lino ladom milk",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/lino-mini-pillows-punjeni-sa-lino-ladom/",
+      "name": "Lino mini pillows punjeni sa Lino ladom",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/lino-pillows-jaffa/",
+      "name": "Lino pillows jaffa",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/lino-voce-s-integralnim-zitaricama-2/",
+      "name": "Lino voće s integralnim žitaricama",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/lino-voce-s-rizom/",
+      "name": "Lino voće s rižom",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/lovor-list/",
+      "name": "Lovor list",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/ljupcac/",
+      "name": "Ljupčac",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/ljuta-paprika-mljevena-crvena-zacinska/",
+      "name": "Ljuta paprika – mljevena crvena začinska",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/majcina-dusica-usitnjena/",
+      "name": "Majčina dušica usitnjena",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/malina-brusnica/",
+      "name": "Malina brusnica",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/malina-i-kupina-s-vanilijom/",
+      "name": "Malina i kupina s vanilijom",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/mamina-juha/",
+      "name": "Mamina juha",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 31,
+        "p": 0.8,
+        "g": 0.5,
+        "c": 3.3
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/mango-breskva/",
+      "name": "Mango breskva",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/marmeladni-namaz-jagoda/",
+      "name": "Marmeladni namaz jagoda",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/marmeladni-namaz-marelica/",
+      "name": "Marmeladni namaz marelica",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/marmeladni-namaz-mijesano-voce/",
+      "name": "Marmeladni namaz miješano voće",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/mazuran-usitnjeni/",
+      "name": "Mažuran usitnjeni",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/mesni-dorucak-2/",
+      "name": "Mesni doručak",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/mesni-ragu-sa-sampinjonima/",
+      "name": "Mesni ragu sa šampinjonima",
+      "reason": "kJ/kcal disagreement above rounding tolerance",
+      "values": {
+        "kcal": 117,
+        "p": 6.7,
+        "g": 7.7,
+        "c": 4.2
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/metvica/",
+      "name": "Metvica",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/mljevena-zelatina/",
+      "name": "Mljevena želatina",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/morska-sol/",
+      "name": "Morska sol",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/mrkva-kocke/",
+      "name": "Mrkva kocke",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/muskatni-orascic-cijeli/",
+      "name": "Muškatni oraščić cijeli",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/muskatni-orascic-mljeveni/",
+      "name": "Muškatni oraščić mljeveni",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/naranca-s-cimetom-i-klincicem/",
+      "name": "Naranča s cimetom i klinčićem",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/ocaravajuci-vocnjak/",
+      "name": "Očaravajući voćnjak",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/origano-usitnjeni/",
+      "name": "Origano usitnjeni",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/panirani-riblji-stapici/",
+      "name": "Panirani riblji štapići",
+      "reason": "kJ/kcal disagreement above rounding tolerance",
+      "values": {
+        "kcal": 205,
+        "p": 11.6,
+        "g": 9.4,
+        "c": 18.2
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/persin-list-usitnjeni/",
+      "name": "Peršin list usitnjeni",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pileca-juha-s-ribanom-kasom/",
+      "name": "Pileća juha s ribanom kašom",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 24,
+        "p": 0.9,
+        "g": 0.7,
+        "c": 3.2
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/planinski-caj/",
+      "name": "Planinski čaj",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/povrtna-kocka/",
+      "name": "Povrtna kocka",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/povrtni-tekuci-temeljac/",
+      "name": "Povrtni tekući temeljac",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/povrtni-temeljac-za-jela/",
+      "name": "Povrtni temeljac za jela",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 137,
+        "p": 3.2,
+        "g": 5.2,
+        "c": 17
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/primorski-raj/",
+      "name": "Primorski raj",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/psenicna-krupica/",
+      "name": "Pšenična krupica",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/ruzmarin-usitnjeni/",
+      "name": "Ružmarin usitnjeni",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/safran-rezane-niti/",
+      "name": "Šafran rezane niti",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/san/",
+      "name": "San",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sardine-u-maslinovom-ulju-2/",
+      "name": "Sardine u maslinovom ulju",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sardine-u-maslinovom-ulju/",
+      "name": "Sardine u maslinovom ulju",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sareni-papar/",
+      "name": "Šareni papar",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/slagfix/",
+      "name": "Šlagfix",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/slatka-paprika-mljevena-crvena-zacinska/",
+      "name": "Slatka paprika – mljevena crvena začinska",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/soda-bikarbona/",
+      "name": "Soda bikarbona",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/soja/",
+      "name": "Soja",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/spageti-s-jajima-no7/",
+      "name": "Špageti s jajima no7",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sumska-jagoda-acai/",
+      "name": "Šumska jagoda acai",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sumsko-voce-2/",
+      "name": "Šumsko voće",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/tjestenina-macncheese/",
+      "name": "Tjestenina Mac’n’cheese",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/tuna-komadi-u-biljnom-ulju-3/",
+      "name": "Tuna komadi u biljnom ulju",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/tuna-komadi-u-maslinovom-ulju-2/",
+      "name": "Tuna komadi u maslinovom ulju",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/tuna-komadi-u-maslinovom-ulju/",
+      "name": "Tuna steak u maslinovom ulju",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/umami-tekuci-dodatak/",
+      "name": "Umami tekući dodatak",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/urosal-uvin-caj/",
+      "name": "Urosal Uvin čaj",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vegeta-air-fryer-gyros-kebab/",
+      "name": "Vegeta Air Fryer Gyros & Kebab",
+      "reason": "large label energy/macronutrient discrepancy; not corrected or inferred",
+      "values": {
+        "kcal": 232,
+        "p": 7.6,
+        "g": 5.7,
+        "c": 26
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vegeta-air-fryer-mac-cheese/",
+      "name": "Vegeta Air Fryer Mac & Cheese",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vegeta-bio/",
+      "name": "Vegeta BIO",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vegeta-maestro-luk-granule/",
+      "name": "Vegeta Maestro luk granule",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vegeta-natur-goveda-kocka/",
+      "name": "Vegeta NATUR goveđa kocka",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 6,
+        "p": 0.5,
+        "g": 0.5,
+        "c": 0.5
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vegeta-natur-kokosja-kocka/",
+      "name": "Vegeta NATUR kokošja kocka",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 7,
+        "p": 0.5,
+        "g": 0.5,
+        "c": 0.5
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vegeta-natur-povrtna-kocka/",
+      "name": "Vegeta NATUR povrtna kocka",
+      "reason": "dry-versus-prepared basis ambiguous in manufacturer panel",
+      "values": {
+        "kcal": 6,
+        "p": 0.5,
+        "g": 0.5,
+        "c": 0.5
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vegeta-natur-povrtna-pasta/",
+      "name": "Vegeta Natur povrtna pasta",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vegeta-natur-za-azijska-jela/",
+      "name": "Vegeta Natur za azijska jela",
+      "reason": "large label energy/macronutrient discrepancy; not corrected or inferred",
+      "values": {
+        "kcal": 188,
+        "p": 8.4,
+        "g": 4.7,
+        "c": 18
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vegeta-natur-za-pizzu/",
+      "name": "Vegeta Natur za pizzu",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vegeta-original/",
+      "name": "Vegeta Original",
+      "reason": "large label energy/macronutrient discrepancy; not corrected or inferred",
+      "values": {
+        "kcal": 137,
+        "p": 8.5,
+        "g": 0.5,
+        "c": 32
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/velebitski-tip-caja/",
+      "name": "Velebitski tip čaja",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/visnja-2/",
+      "name": "Višnja",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vlasac-sjeckani/",
+      "name": "Vlasac sjeckani",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vruci-dumbir-s-limunom/",
+      "name": "Vrući đumbir s limunom",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zelene-mahune-2/",
+      "name": "Zelene mahune",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zelene-masline-punjene-pastom-od-paprike/",
+      "name": "Zelene masline punjene pastom od paprike",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zelene-masline/",
+      "name": "Zelene masline",
+      "reason": "large label energy/macronutrient discrepancy; not corrected or inferred",
+      "values": {
+        "kcal": 145,
+        "p": 0.9,
+        "g": 6.8,
+        "c": 0
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zeleni-caj-s-metvicom/",
+      "name": "Zeleni čaj s metvicom",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zeleni-caj/",
+      "name": "Zeleni čaj",
+      "reason": "large label energy/macronutrient discrepancy; not corrected or inferred",
+      "values": {
+        "kcal": 227,
+        "p": 26,
+        "g": 2.1,
+        "c": 55.2
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zeleni-papar-zrno/",
+      "name": "Zeleni papar zrno",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zelin-super/",
+      "name": "Želin super",
+      "reason": "large label energy/macronutrient discrepancy; not corrected or inferred",
+      "values": {
+        "kcal": 300,
+        "p": 0,
+        "g": 0,
+        "c": 52
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zik-zak-slatko-kiseli-umak/",
+      "name": "Zik Zak slatko kiseli umak",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zik-zak-slatko-ljuti-umak/",
+      "name": "Zik Zak slatko ljuti umak",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zob-barista-biljni-napitak/",
+      "name": "Zob Barista biljni napitak",
+      "reason": "liquid panel marked 100g on website; excluded pending package verification",
+      "values": {
+        "kcal": 54,
+        "p": 0.7,
+        "g": 3,
+        "c": 5.7
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zob-biljni-napitak/",
+      "name": "Zob biljni napitak",
+      "reason": "liquid panel marked 100g on website; excluded pending package verification",
+      "values": {
+        "kcal": 45,
+        "p": 1.3,
+        "g": 0.8,
+        "c": 7.7
+      }
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zob-i-badem-biljni-napitak/",
+      "name": "Zob i badem biljni napitak",
+      "reason": "liquid panel marked 100g on website; excluded pending package verification",
+      "values": {
+        "kcal": 58,
+        "p": 1.8,
+        "g": 2.4,
+        "c": 7
+      }
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/cokolade/runolist",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/cokolade/kras-selection",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/cokolade/dorina",
+      "name": "Dorina",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/cokolade/kolumbo",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/cokolade/coksa",
+      "name": "ČOKSA",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/cokolade/zivotinjsko-carstvo",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bombonijere/griotte",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bombonijere/fontana",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bombonijere/bajadera",
+      "name": "Neodgodivo dobra. Bajadera",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/prekrasni-strudlice",
+      "name": "TOPE SE SAMO U USTIMA",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/prekrasni",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bombonijere/kras-selection",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/choco-napolitanke",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/frondi",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/domacica",
+      "name": "Domaćica",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/jadro",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/napolitanke",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/moto",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/tortica",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/petit-beurre",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/jaffa",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/cajna-peciva",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/sport",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/cajni-kolutici",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bomboni/bronhi",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/sara",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bomboni/ki-ki",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bomboni/petstopet-s-crtom",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bomboni/pepermint",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bomboni/mentol",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/slani-asortiman/vic",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/djecji-asortiman/kras-express",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/djecji-asortiman/bananko",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/djecji-asortiman/brundo",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/asortiman-bez-secera/505-s-crtom-bez-secera",
+      "name": "505 s crtom bez šećera",
+      "reason": "large label energy/macronutrient discrepancy; not corrected or inferred",
+      "values": {
+        "kcal": 236,
+        "p": 0,
+        "g": 0,
+        "c": 98
+      }
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/asortiman-bez-secera/mentol-bez-secera",
+      "name": "Mentol bez šećera",
+      "reason": "large label energy/macronutrient discrepancy; not corrected or inferred",
+      "values": {
+        "kcal": 234,
+        "p": 0,
+        "g": 0,
+        "c": 97.2
+      }
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/cokolade/dorina/dorina-cokoladica-krem-kakao",
+      "name": "Dorina čokoladica Krem kakao",
+      "reason": "kJ/kcal disagreement above rounding tolerance",
+      "values": {
+        "kcal": 542,
+        "p": 8.2,
+        "g": 31,
+        "c": 52
+      }
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/cokolade/zivotinjsko-carstvo/album-zivotinjsko-carstvo",
+      "name": "Album Životinjsko carstvo",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/choco-napolitanke/choco-napolitanke-naranca",
+      "name": "Choco Napolitanke naranča",
+      "reason": "kJ/kcal disagreement above rounding tolerance",
+      "values": {
+        "kcal": 492,
+        "p": 5,
+        "g": 31,
+        "c": 53
+      }
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/sport/sport",
+      "name": "Sport",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/sport/sport-1kg",
+      "name": "Sport 1kg",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bomboni/ki-ki/ki-ki-punioza-limeta-cola",
+      "name": "Ki-Ki Punioza Limeta Cola",
+      "reason": "missing, bounded or unparsed energy/macros"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bomboni/petstopet-s-crtom/505-s-crtom-bez-secera",
+      "name": "505 s crtom bez šećera",
+      "reason": "large label energy/macronutrient discrepancy; not corrected or inferred",
+      "values": {
+        "kcal": 236,
+        "p": 0,
+        "g": 0,
+        "c": 98
+      }
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bomboni/mentol/mentol-bez-secera",
+      "name": "Mentol bez šećera",
+      "reason": "large label energy/macronutrient discrepancy; not corrected or inferred",
+      "values": {
+        "kcal": 234,
+        "p": 0,
+        "g": 0,
+        "c": 97.2
+      }
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/cokolade/dorina/dorina-extra-milk",
+      "reason": "HTTP 404"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/mlijeko",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/jogurti",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/kefiri",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/vocni-jogurti",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/grcki-tip-jogurta",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/fortia",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/vrhnje",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/pudinzi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/namazi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/maslac",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/bez-laktoze/bez-laktoze",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/proteinski-proizvodi/z-bregov-protein",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/ledena-kava/ledena-kava",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/sirevi/sirevi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/biljni-proizvodi/dar",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/sokovi/vindi-u-pet-boci",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/sokovi/vindi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/sokovi/ledeni-cajevi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/energetsko-pice/uragan",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/funkcionalna-pica/iso-sport",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/piletina/cekin",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/kids/vindino",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/pekarski-proizvodi/latica",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/puretina/vindon",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/mlijeko/mlijeko",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/jogurti/jogurti",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/kefiri/kefir",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/grcki-tip-jogurta/grcki-tip-jogurta",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/vocni-jogurti/vocni-jogurti",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/fortia/fortia",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/vrhnje/vrhnje",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/namazi/namazi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/pudinzi/pudinzi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/bez-laktoze/bez-laktoze/bez-laktoze",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/mlijeko-i-mlijecni-proizvodi/maslac/maslac",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/ledena-kava/ledena-kava/ledena-kava",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/sirevi/panirani-sirevi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/sirevi/ribani-sirevi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/sirevi/polutvrdi-sirevi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/biljni-proizvodi/dar/dar-biljni-napitak/badem-przeni",
+      "name": "Dar biljni napitak – Badem blago prženi",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/biljni-proizvodi/dar/dar-biljni-napitak/zob",
+      "name": "Dar biljni napitak – Zob",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/biljni-proizvodi/dar/dar-biljni-napitak/badem",
+      "name": "Dar biljni napitak – Badem neprženi",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/biljni-proizvodi/dar/dar-biljni-napitak/mango",
+      "name": "Dar biljni napitak – SMOOTHIE mango",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/biljni-proizvodi/dar/dar-biljni-napitak/barista",
+      "name": "Dar biljni napitak – Barista",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/biljni-proizvodi/dar/dar-biljni-napitak/zob-cokolada",
+      "name": "Dar biljni napitak – Zob čokolada",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/biljni-proizvodi/dar/dar-biljni-napitak/cokolada-ljesnjak",
+      "name": "Dar biljni napitak – Čokolada-lješnjak",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/biljni-proizvodi/dar/dar-biljni-napitak/vanilija",
+      "name": "Dar biljni napitak – Vanilija",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/biljni-proizvodi/dar/dar-biljni-napitak/borovnica",
+      "name": "Dar biljni napitak – SMOOTHIE borovnica i crni ribiz",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/sokovi/vindi-u-pet-boci/vindi-u-pet-boci",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/sokovi/ledeni-cajevi/ledeni-cajevi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/sokovi/vindi/vindi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/kids/vindino/vindino",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/energetsko-pice/uragan/energetsko-pice",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/pekarski-proizvodi/latica/latica",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/puretina/vindon/vindon",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/sirevi/panirani-sirevi/panirani-sirevi-neodoljivo-topljivi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/sirevi/ribani-sirevi/ribani-sirevi",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/sirevi/polutvrdi-sirevi/polutvrdi-sirevi-za-svaku-priliku",
+      "name": "",
+      "reason": "no product-specific nutrition table"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bio-sjeckana-rajcica-2/",
+      "name": "Bio sjeckana rajčica",
+      "reason": "conflicting manufacturer panels for same name and brand"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bio-sjeckana-rajcica/",
+      "name": "Bio sjeckana rajčica",
+      "reason": "conflicting manufacturer panels for same name and brand"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bolognese-umak-2/",
+      "name": "Bolognese umak",
+      "reason": "conflicting manufacturer panels for same name and brand"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/bolognese-umak/",
+      "name": "Bolognese umak",
+      "reason": "conflicting manufacturer panels for same name and brand"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/cajna-kobasica-2/",
+      "name": "Čajna kobasica",
+      "reason": "conflicting manufacturer panels for same name and brand"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/cajna-kobasica/",
+      "name": "Čajna kobasica",
+      "reason": "conflicting manufacturer panels for same name and brand"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/panceta-2/",
+      "name": "Panceta",
+      "reason": "conflicting manufacturer panels for same name and brand"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/panceta/",
+      "name": "Panceta",
+      "reason": "conflicting manufacturer panels for same name and brand"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bombonijere/bajadera/bajadera",
+      "name": "Bajadera",
+      "reason": "conflicting manufacturer panels for same name and brand"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bombonijere/bajadera/bajadera3",
+      "name": "Bajadera",
+      "reason": "conflicting manufacturer panels for same name and brand"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bombonijere/bajadera/bajadera4",
+      "name": "Bajadera",
+      "reason": "conflicting manufacturer panels for same name and brand"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bombonijere/bajadera/bajadera2",
+      "name": "Bajadera",
+      "reason": "conflicting manufacturer panels for same name and brand"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pikant-govedi-gulas/",
+      "name": "Pikant goveđi gulaš",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/piketa-cajna-pasteta/",
+      "name": "Piketa čajna pašteta",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/piketa-jetrena-pasteta/",
+      "name": "Piketa jetrena pašteta",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/piketa-pileca-pasteta/",
+      "name": "Piketa pileća pašteta",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pileca-abeceda-juha/",
+      "name": "Pileća Abeceda Juha",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pileca-fitfina-sunka/",
+      "name": "Pileća Fit&Fina šunka",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pileca-jetrena-pasteta/",
+      "name": "Pileća jetrena pašteta",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pileca-pasteta/",
+      "name": "Pileća pašteta",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pileca-pasteta-gold/",
+      "name": "Pileća pašteta gold",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pileca-pasteta-ljuta/",
+      "name": "Pileća pašteta ljuta",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pileca-pasteta-s-ajvarom/",
+      "name": "Pileća pašteta s ajvarom",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pileca-pikant-pasteta/",
+      "name": "Pileća pikant pašteta",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pileci-narezak/",
+      "name": "Pileći narezak",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pileci-ragu/",
+      "name": "Pileći ragu",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/piletina-u-mediteranskom-umaku/",
+      "name": "Piletina u mediteranskom umaku",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pirovo-integralno-brasno/",
+      "name": "Pirovo integralno brašno",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/podravka-pire-krumpir/",
+      "name": "Podravka pire krumpir",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/polubijelo-brasno-tip-850/",
+      "name": "Polubijelo brašno (TIP 850)",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/proljetna-juha/",
+      "name": "Proljetna juha",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pureca-fitfina-sunka/",
+      "name": "Pureća Fit&Fina šunka",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/pureci-narezak/",
+      "name": "Pureći narezak",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/salsa/",
+      "name": "Salsa",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/senf-estragon/",
+      "name": "Senf estragon",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/senf-estragon-squeeze/",
+      "name": "Senf estragon squeeze",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sjeckana-rajcica/",
+      "name": "Sjeckana rajčica",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sjeckana-rajcica-s-bosiljkom-i-origanom/",
+      "name": "Sjeckana rajčica s bosiljkom i origanom",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sladoledni-desert-jagoda/",
+      "name": "Sladoledni desert jagoda",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sladoledni-desert-malina/",
+      "name": "Sladoledni desert malina",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sladoledni-desert-pistacija/",
+      "name": "Sladoledni desert pistacija",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/slanutak/",
+      "name": "Slanutak",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/slavonska-juha/",
+      "name": "Slavonska juha",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/spare-ribs/",
+      "name": "Spare ribs",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/srijemska-kobasica/",
+      "name": "Srijemska kobasica",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/svatovska-juha/",
+      "name": "Svatovska juha",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sampinjoni/",
+      "name": "Šampinjoni",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sipak/",
+      "name": "Šipak",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sunka-narezak/",
+      "name": "Šunka narezak",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sunka-u-ovitku/",
+      "name": "Šunka u ovitku",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/sunkarica/",
+      "name": "Šunkarica",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/svicarska-juha/",
+      "name": "Švicarska juha",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/tirolska-juha/",
+      "name": "Tirolska juha",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/tirolska-kobasica/",
+      "name": "Tirolska kobasica",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/tortilla-mix/",
+      "name": "Tortilla mix",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/tuna-a-la-provencale/",
+      "name": "Tuna a la provencale",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/umak-sa-sampinjonima/",
+      "name": "Umak sa šampinjonima",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/vocni-namaz-smokva/",
+      "name": "Voćni namaz smokva",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zapeceni-grah/",
+      "name": "Zapečeni grah",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zelene-masline-otkosticene/",
+      "name": "Zelene masline otkoštičene",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zik-zak-blagi/",
+      "name": "Zik Zak blagi",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zik-zak-ljuti/",
+      "name": "Zik Zak ljuti",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zik-zak-zuti-senf/",
+      "name": "Zik Zak žuti senf",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zimska-kobasica/",
+      "name": "Zimska kobasica",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    },
+    {
+      "url": "https://podravkagrupa.com/hr/proizvod/zelirni-secer-21/",
+      "name": "Želirni šećer 2:1",
+      "reason": "1000-row selection limit; balanced brand coverage"
+    }
+  ],
+  "duplicates": [
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/cokolade/dorina/dorina-mlijeko-bez-dodanih-secera",
+      "name": "Dorina Mlijeko bez dodanih šećera",
+      "kept": "https://www.kras.hr/hr/proizvodi/asortiman-bez-secera/dorina-mlijeko-bez-dodanih-secera"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/cokolade/dorina/dorina-tamna-bez-dodanih-secera",
+      "name": "Dorina Tamna bez dodanih šećera",
+      "kept": "https://www.kras.hr/hr/proizvodi/asortiman-bez-secera/dorina-tamna-bez-dodanih-secera"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/napolitanke/napolitanke-hazelnut-bez-secera",
+      "name": "Napolitanke hazelnut bez šećera",
+      "kept": "https://www.kras.hr/hr/proizvodi/asortiman-bez-secera/napolitanke-hazelnut-bez-secera"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/petit-beurre/petit-beurre",
+      "name": "Petit Beurre",
+      "kept": "https://www.kras.hr/hr/proizvodi/kulinarski-asortiman/petit-beurre"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/cokolade/dorina/dorina-za-jelo-i-kuhanje",
+      "name": "Dorina za jelo i kuhanje",
+      "kept": "https://www.kras.hr/hr/proizvodi/kulinarski-asortiman/dorina-za-jelo-i-kuhanje"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bombonijere/kras-selection/kras-selection-choco-drazeje",
+      "name": "Kraš Selection Choco dražeje",
+      "kept": "https://www.kras.hr/hr/proizvodi/cokolade/kras-selection/kras-selection-choco-drazeje"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/domacica/domacica-original",
+      "name": "Domaćica Original",
+      "kept": "https://www.kras.hr/hr/proizvodi/keksi-vafli-i-cajna-peciva/domacica/domacica-original1"
+    },
+    {
+      "url": "https://www.kras.hr/hr/proizvodi/bomboni/ki-ki/ki-ki-tutti-frutti1",
+      "name": "Ki-Ki Tutti Frutti",
+      "kept": "https://www.kras.hr/hr/proizvodi/bomboni/ki-ki/ki-ki-tutti-frutti"
+    },
+    {
+      "url": "https://www.vindija.hr/hr/proizvodi/proteinski-proizvodi/z-bregov-protein/trajni-mlijecni-napitak/cokolada",
+      "name": "Trajni mliječni napitak – Čokolada",
+      "kept": "https://www.vindija.hr/hr/proizvodi/proteinski-proizvodi/z-bregov-protein/trajni-mlijecni-napitak/cokolada-300ml"
+    }
+  ]
+}

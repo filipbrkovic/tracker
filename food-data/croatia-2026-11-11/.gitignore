@@ -1,0 +1,10 @@
+/node_modules/
+/sources/*
+!/sources/ciqual-2025-foods.json
+!/sources/ciqual-2025-metadata.json
+!/sources/ciqual-2025-rows.json
+!/sources/ciqual-curated.json
+!/sources/curated-records.json
+!/sources/podravka-labels.json
+!/sources/kras-labels.json
+!/sources/vindija-labels.json

@@ -378,6 +378,7 @@ func mcpTools() []map[string]any {
 					"date":  str("Day to update, YYYY-MM-DD. Required."),
 					"food":  str("Food id, exact name or substring. Required."),
 					"grams": num("Portion in grams. Required."),
+					"meal":  diaryMealSchema(),
 					"key":   keyProp,
 				},
 				"required": []string{"date", "food", "grams"},
@@ -387,16 +388,17 @@ func mcpTools() []map[string]any {
 		{
 			"name":        "update_diary_item",
 			"title":       "Update a diary item",
-			"description": "Change the grams of an item already in a day's diary and recompute its macros. Identify the item by its id or by food name (first match). Returns the updated item and the day totals.",
+			"description": "Change the grams and/or meal of an item already in a day's diary. Grams changes recompute its saved nutrition snapshot; meal-only changes preserve nutrition. Identify the item by its id or by food name (first match). Returns the updated item and the day totals.",
 			"inputSchema": map[string]any{
 				"type": "object",
 				"properties": map[string]any{
 					"date":  str("Day of the item, YYYY-MM-DD. Required."),
 					"item":  str("Item id or food name. Required."),
-					"grams": num("New portion in grams. Required."),
+					"grams": num("New portion in grams. Optional when changing only the meal."),
+					"meal":  diaryMealSchema(),
 					"key":   keyProp,
 				},
-				"required": []string{"date", "item", "grams"},
+				"required": []string{"date", "item"},
 			},
 			"annotations": map[string]any{"readOnlyHint": false, "destructiveHint": false, "idempotentHint": true, "openWorldHint": false},
 		},
@@ -1020,6 +1022,25 @@ func findWorkout(workouts []map[string]any, ref, session string) map[string]any 
 
 // --- Diary -------------------------------------------------------------------
 
+func diaryMealSchema() map[string]any {
+	return map[string]any{"type": "string", "enum": []string{"breakfast", "lunch", "dinner", "snacks", "unassigned"}, "description": "Meal section. Optional on add; omitted means unassigned. Use breakfast, lunch, dinner or snacks."}
+}
+
+func diaryMealArg(args map[string]any) (string, bool, error) {
+	value, present := args["meal"]
+	if !present {
+		return "", false, nil
+	}
+	meal, ok := value.(string)
+	if ok {
+		switch meal {
+		case "breakfast", "lunch", "dinner", "snacks", "unassigned":
+			return meal, true, nil
+		}
+	}
+	return "", true, errors.New("meal must be breakfast, lunch, dinner, snacks or unassigned")
+}
+
 // toolListDiary reads a single day in full, or lists recent days as summaries.
 func (s *server) toolListDiary(args map[string]any) (any, error) {
 	key, err := mcpKey(args)
@@ -1085,6 +1106,10 @@ func (s *server) toolListDiary(args map[string]any) (any, error) {
 
 // toolAddDiaryItem appends a food (with its computed macros) to a day.
 func (s *server) toolAddDiaryItem(args map[string]any) (any, error) {
+	meal, hasMeal, mealErr := diaryMealArg(args)
+	if mealErr != nil {
+		return nil, mealErr
+	}
 	key, err := mcpKey(args)
 	if err != nil {
 		return nil, err
@@ -1122,6 +1147,9 @@ func (s *server) toolAddDiaryItem(args map[string]any) (any, error) {
 			return errors.New("this MCP tool accepts grams for per-100g foods only; log other bases in the UI")
 		}
 		item := makeDiaryItem(food, grams)
+		if hasMeal {
+			item["meal"] = meal
+		}
 		item["position"] = len(diaryItems(day))
 		items := append(diaryItems(day), item)
 		day["items"] = items
@@ -1147,6 +1175,10 @@ func (s *server) toolAddDiaryItem(args map[string]any) (any, error) {
 
 // toolUpdateDiaryItem changes an item's grams and recomputes its macros.
 func (s *server) toolUpdateDiaryItem(args map[string]any) (any, error) {
+	meal, hasMeal, mealErr := diaryMealArg(args)
+	if mealErr != nil {
+		return nil, mealErr
+	}
 	key, err := mcpKey(args)
 	if err != nil {
 		return nil, err
@@ -1159,9 +1191,15 @@ func (s *server) toolUpdateDiaryItem(args map[string]any) (any, error) {
 	if ref == "" {
 		return nil, errors.New("item is required (item id or food name)")
 	}
-	grams, err := requireGrams(args)
-	if err != nil {
-		return nil, err
+	_, hasGrams := args["grams"]
+	var grams float64
+	if hasGrams {
+		grams, err = requireGrams(args)
+		if err != nil {
+			return nil, err
+		}
+	} else if !hasMeal {
+		return nil, errors.New("provide grams and/or meal")
 	}
 
 	var result map[string]any
@@ -1179,11 +1217,16 @@ func (s *server) toolUpdateDiaryItem(args map[string]any) (any, error) {
 		if idx < 0 {
 			return fmt.Errorf("item %q not found on %s", ref, date)
 		}
-		foods, err := decodeObjects(state["foods"])
-		if err != nil {
-			return err
+		if hasGrams {
+			foods, err := decodeObjects(state["foods"])
+			if err != nil {
+				return err
+			}
+			recalcDiaryItem(items[idx], findFood(foods, getString(items[idx], "foodId")), grams)
 		}
-		recalcDiaryItem(items[idx], findFood(foods, getString(items[idx], "foodId")), grams)
+		if hasMeal {
+			items[idx]["meal"] = meal
+		}
 		day["items"] = items
 		if err := setRaw(state, "diary", diary); err != nil {
 			return err

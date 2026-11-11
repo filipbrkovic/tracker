@@ -11,4 +11,6 @@ bin
 *.log
 .DS_Store
 docs
+cloudflare
+food-data
 *.md

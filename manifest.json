@@ -2,13 +2,13 @@
   "name": "LocalCal",
   "short_name": "LocalCal",
   "description": "Private calorie and food diary",
-  "lang": "it",
+  "lang": "en",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#0b1220",
-  "theme_color": "#0b1220",
+  "background_color": "#f5f7fb",
+  "theme_color": "#f5f7fb",
   "icons": [
     {
       "src": "/icons/icon-192.png",

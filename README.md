@@ -9,6 +9,10 @@ Start with [CasaOS deployment](CASAOS_DEPLOYMENT.md) and
 [templates](templates). The original README below documents inherited behavior;
 LocalCal changes described here take precedence.
 
+Optional packaged-food lookup through a Cloudflare Worker is described in
+[food database search setup](cloudflare/food-search/README.md). Search results
+fill an editable draft; nothing is saved until you confirm it.
+
 - Today / Add / Foods / Settings, custom foods and quick calorie logging.
 - Regional Unicode search and aliases, with brands kept distinct.
 - CSV/JSON preview and explicit apply; optional source-column mapping, decimal
@@ -29,8 +33,27 @@ node --test tests/*.test.mjs
 Open http://localhost:8080. For production use the provided Compose configuration
 (loopback port 3187 by default). No registration or AI configuration is needed.
 Do not expose unauthenticated API/MCP endpoints publicly. Docker/CasaOS and
-physical-phone checks remain unverified here. Photos, vision, MCP tool extensions
-and full Croatian/English localization remain later milestones.
+physical-phone checks remain unverified here. Photos, vision and further MCP
+tool extensions remain later milestones.
+
+## Continue on another machine
+
+Check out `codex/localcal`, install Go 1.26.3+ and Node 22.12+, then run the Go
+server and tests above. The current interface is in English, uses the light
+workspace design, and groups diary entries into Breakfast, Lunch, Dinner and
+Snacks. Older entries remain Unassigned until placed.
+
+The completed import is
+`food-data/croatia-2026-11-11/croatia-foods-1000.csv`; its source extracts and audit
+are versioned. The separate drinks research directory is unfinished work.
+Online food search is optional: follow `cloudflare/food-search/README.md` and run
+`npm ci` in that directory. Cloudflare deployment is not yet performed.
+
+Local SQLite databases, browser LocalStorage, `.env`, Worker secrets, installed
+dependencies and compiled binaries are intentionally not committed. Use Settings
+to export a JSON backup if you also want to transfer your actual saved foods and
+diary. Configure a fresh Worker token on the other machine; the local preview
+launcher requires `.dev.vars` as described in the Worker README.
 
 ---
 

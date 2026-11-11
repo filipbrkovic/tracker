@@ -6,8 +6,29 @@ import {loadCore} from './extract-core.mjs';
 const html=readFileSync(new URL('../index.html',import.meta.url),'utf8');
 const code=html.split('/* SYNC-CORE-START */')[1].split('/* SYNC-CORE-END */')[0];
 const ctx=vm.createContext({crypto:globalThis.crypto});
-vm.runInContext(code+';globalThis.api={validateFood,previewFoods,foodMatches,snapshotFood,stampDiaryItems,mergeDiaryItems}',ctx);
+vm.runInContext(code+';globalThis.api={validateFood,previewFoods,foodMatches,snapshotFood,stampDiaryItems,mergeDiaryItems,groupDiaryMeals,onlineFoodDraft}',ctx);
 const api=ctx.api;
+
+test('online candidates require confirmed units and preserve source calories and unknown macros',()=>{
+ const candidate={code:'3858888602825',name:'Example drink',brand:'Example',usable:true,kcal:64,p:10,g:null,c:4.9,aliases:['Primjer'],notes:['fat: < 0.5; numeric value left blank']};
+ assert.throws(()=>api.onlineFoodDraft(candidate,''),/Confirm/);
+ const food=api.onlineFoodDraft(candidate,'100ml');assert.equal(food.basis,'100ml');assert.equal(food.kcal,64);assert.equal(food.g,null);assert.ok(food.source.includes(candidate.code));assert.ok(food.source.includes('ODbL'));
+ assert.throws(()=>api.onlineFoodDraft({...candidate,kcal:null},'100g'),/calorie/);
+ assert.throws(()=>api.onlineFoodDraft({...candidate,p:120},'100g'),/unusually high/);
+});
+
+test('meal sections keep empty meals, legacy entries and unknown macros distinct',()=>{
+ const items=[{id:'a',meal:'breakfast',kcal:100,p:10,g:2,c:8},{id:'b',meal:'breakfast',kcal:50,p:null,g:0,c:5},{id:'c',kcal:20,p:1,g:0,c:4}];
+ const groups=api.groupDiaryMeals(items);
+ assert.deepEqual(Array.from(groups,g=>g.id),['breakfast','lunch','dinner','snacks','unassigned']);
+ assert.equal(groups[0].totals.kcal,150);assert.equal(groups[0].totals.p,null);
+ assert.equal(groups[1].totals.kcal,0);assert.equal(groups[4].items[0].id,'c');
+ assert.equal(items[2].meal,undefined,'displaying a legacy entry must not silently assign it');
+ const before={day:{items:[{...items[0]}]}};api.stampDiaryItems({},before,100);
+ const after=JSON.parse(JSON.stringify(before));after.day.items[0].meal='lunch';api.stampDiaryItems(before,after,200);
+ const merged=api.mergeDiaryItems(before.day,after.day,100,200);
+ assert.equal(merged.items[0].meal,'lunch');assert.equal(merged.items[0].kcal,100);
+});
 test('regional names, aliases and distinct brands',()=>{
  const food=api.validateFood({name:'Svježi sir',brand:'A',aliases:'kruh|hljeb',kcal:'98,5'});
  for(const q of ['svjezi sir','KRUH','hljeb']) assert.ok(api.foodMatches(food,q));
